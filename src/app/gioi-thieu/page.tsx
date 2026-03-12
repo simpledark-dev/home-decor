@@ -16,8 +16,8 @@ export default function AboutPage() {
       <PageHero
         label="Về Chúng Tôi"
         title="Câu Chuyện"
-        highlight="Nội Thất Việt"
-        description="Hơn 15 năm đồng hành cùng hàng trăm gia đình Việt, chúng tôi không ngừng theo đuổi sứ mệnh kiến tạo những không gian sống đẳng cấp, nơi nghệ thuật và cuộc sống hòa quyện."
+        highlight="Luxury House"
+        description="Từ năm 2016, chúng tôi đã đồng hành cùng hàng trăm gia đình tại TP.HCM, mang đến những không gian sống đẹp và tiện nghi cho căn hộ và nhà phố — nơi mỗi góc nhỏ đều chứa đựng tâm huyết của đội ngũ."
       />
 
       {/* Studio Story */}
@@ -42,23 +42,23 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-6">
               <p className="text-base leading-relaxed font-light text-body">
-                Thành lập vào năm 2009, Nội Thất Việt bắt đầu từ một studio nhỏ
-                tại Sài Gòn với đội ngũ chỉ vỏn vẹn 5 người. Nhưng chúng tôi có
-                chung một niềm đam mê cháy bỏng: tạo ra những không gian sống đẹp
-                đẽ, phản ánh tinh hoa văn hóa Việt Nam trong bối cảnh hiện đại.
+                Luxury House ra đời vào năm 2016, khởi đầu từ một nhóm nhỏ gồm 3
+                nhà thiết kế đầy đam mê tại Sài Gòn. Chúng tôi bắt đầu với một ước
+                mơ giản dị: giúp các gia đình tại TP.HCM có được không gian sống đẹp,
+                tiện nghi và mang đậm dấu ấn cá nhân.
               </p>
               <p className="text-base leading-relaxed font-light text-body">
-                Trải qua hơn một thập kỷ, studio nhỏ ngày nào đã phát triển thành
-                một trong những đơn vị thiết kế nội thất cao cấp hàng đầu. Chúng tôi
-                tự hào đã mang đến hàng trăm công trình từ căn hộ penthouse sang trọng,
-                biệt thự hiện đại cho đến những không gian thương mại ấn tượng trên
-                khắp Việt Nam.
+                Sau hơn 8 năm, đội ngũ nhỏ ngày nào đã phát triển thành một studio
+                hơn 20 thành viên chuyên tâm vào thiết kế nội thất nhà ở — từ căn hộ
+                chung cư đến nhà phố. Hơn 200 dự án hoàn thành là minh chứng cho sự
+                tin tưởng mà khách hàng đã dành cho chúng tôi.
               </p>
               <p className="text-base leading-relaxed font-light text-body">
-                Điều làm nên sự khác biệt của Nội Thất Việt chính là khả năng kết hợp
-                hài hòa giữa thẩm mỹ quốc tế và bản sắc Á Đông. Mỗi dự án không chỉ
-                là một công trình thiết kế mà còn là một câu chuyện về con người,
-                về cuộc sống và về những giá trị mà gia chủ trân trọng.
+                Điều làm nên Luxury House chính là sự gần gũi và tận tâm. Chúng tôi
+                lắng nghe từng mong muốn của gia chủ, đồng hành từ bản vẽ đầu tiên
+                đến ngày bàn giao. Mỗi dự án không chỉ là một công trình thiết kế mà
+                còn là một câu chuyện về tổ ấm, về cuộc sống và về những giá trị mà
+                gia đình bạn trân trọng.
               </p>
             </div>
           </div>
@@ -84,8 +84,8 @@ export default function AboutPage() {
                 desc: "Một thiết kế đẹp nhưng không tiện dụng thì chưa phải là thiết kế tốt. Chúng tôi luôn đặt trải nghiệm sống của gia chủ làm trung tâm, đảm bảo mỗi không gian vừa đẹp mắt vừa tối ưu công năng sử dụng.",
               },
               {
-                title: "Tôn Vinh Bản Sắc Việt",
-                desc: "Trong dòng chảy hội nhập quốc tế, chúng tôi tự hào giữ gìn và tôn vinh nét đẹp văn hóa Việt. Chất liệu truyền thống, họa tiết bản địa được tái hiện một cách tinh tế trong ngôn ngữ thiết kế đương đại.",
+                title: "Thấu Hiểu Cuộc Sống",
+                desc: "Mỗi gia đình có một câu chuyện riêng, và chúng tôi luôn lắng nghe để thấu hiểu. Từ thói quen sinh hoạt, sở thích cá nhân đến ngân sách — tất cả đều được cân nhắc để mang đến không gian sống phù hợp nhất.",
               },
             ].map((item) => (
               <div key={item.title} className="bg-white p-12">
@@ -106,10 +106,10 @@ export default function AboutPage() {
       <section className="py-20 px-10">
         <div className="reveal stagger max-w-[1200px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
           {[
-            { number: "15+", label: "Năm Kinh Nghiệm" },
-            { number: "500+", label: "Dự Án Hoàn Thành" },
-            { number: "50+", label: "Giải Thưởng Thiết Kế" },
-            { number: "98%", label: "Khách Hàng Hài Lòng" },
+            { number: "8+", label: "Năm Kinh Nghiệm" },
+            { number: "200+", label: "Dự Án Hoàn Thành" },
+            { number: "100%", label: "Cam Kết Chất Lượng" },
+            { number: "95%", label: "Khách Hàng Hài Lòng" },
           ].map((stat) => (
             <div key={stat.label}>
               <div className="font-serif text-gold text-5xl font-semibold mb-2">
@@ -137,7 +137,7 @@ export default function AboutPage() {
               {
                 num: "01",
                 title: "Chất Lượng",
-                desc: "Chất lượng là nền tảng trong mọi việc chúng tôi làm. Từ lựa chọn vật liệu, tay nghề thi công đến dịch vụ hậu mãi — tất cả đều phải đạt chuẩn cao nhất.",
+                desc: "Chất lượng là nền tảng trong mọi việc chúng tôi làm. Từ lựa chọn vật liệu, tay nghề thi công đến dịch vụ hậu mãi — chúng tôi luôn nỗ lực mang đến kết quả tốt nhất cho gia đình bạn.",
               },
               {
                 num: "02",
@@ -185,16 +185,16 @@ export default function AboutPage() {
             </h2>
             <div className="bg-gold line-grow h-px mx-auto mb-12" />
             <p className="text-base leading-relaxed font-light text-body max-w-[700px] mx-auto mb-6">
-              Nội Thất Việt quy tụ hơn 50 chuyên gia trong các lĩnh vực kiến trúc,
-              thiết kế nội thất, quản lý dự án và thi công. Đội ngũ của chúng tôi bao gồm
-              những kiến trúc sư tốt nghiệp từ các trường đại học danh tiếng trong và ngoài
-              nước, cùng đội ngũ thợ lành nghề với hàng chục năm kinh nghiệm.
+              Luxury House là ngôi nhà chung của hơn 20 thành viên đam mê thiết kế —
+              từ kiến trúc sư, nhà thiết kế nội thất đến đội ngũ quản lý dự án và thi công.
+              Tuy không phải đội ngũ lớn nhất, nhưng chúng tôi tự hào về sự gắn kết và
+              tinh thần trách nhiệm mà mỗi thành viên mang đến cho từng dự án.
             </p>
             <p className="text-base leading-relaxed font-light text-body max-w-[700px] mx-auto">
-              Chúng tôi tin rằng sức mạnh của một studio nằm ở con người. Vì vậy, chúng tôi
-              đầu tư không ngừng vào đào tạo, cập nhật xu hướng thiết kế quốc tế và tạo môi
-              trường làm việc sáng tạo để mỗi thành viên đều có thể phát huy tối đa năng lực
-              của mình.
+              Chúng tôi tin rằng sức mạnh của studio nằm ở con người. Vì vậy, chúng tôi
+              luôn khuyến khích học hỏi, cập nhật xu hướng thiết kế mới và tạo môi trường
+              làm việc cởi mở để mỗi thành viên đều có thể sáng tạo và phát triển cùng
+              Luxury House.
             </p>
           </div>
         </div>

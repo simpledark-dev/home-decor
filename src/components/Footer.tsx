@@ -8,11 +8,10 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="font-serif text-2xl text-white mb-4">
-              <span className="text-gold">NỘI THẤT</span> VIỆT
+              <span className="text-gold">LUXURY</span> HOUSE
             </div>
             <p className="text-sm leading-relaxed font-light max-w-[280px]">
-              Studio thiết kế nội thất cao cấp hàng đầu Việt Nam.
-              Kiến tạo không gian sống đẳng cấp.
+              Studio thiết kế nội thất chuyên biệt cho căn hộ và nhà phố tại TP. Hồ Chí Minh.
             </p>
           </div>
 
@@ -67,14 +66,14 @@ export default function Footer() {
               <div>123 Nguyễn Huệ, Q.1</div>
               <div>TP. Hồ Chí Minh</div>
               <div>(028) 1234 5678</div>
-              <div>hello@noithatviet.vn</div>
+              <div>hello@luxuryhouse.vn</div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-white/8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-xs tracking-wider">
-            © 2024 Nội Thất Việt. Thiết kế bởi đam mê.
+            © 2024 Luxury House. Thiết kế bởi đam mê.
           </div>
           <div className="flex gap-6">
             {["Facebook", "Instagram", "Pinterest"].map((s) => (

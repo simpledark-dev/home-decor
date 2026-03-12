@@ -88,10 +88,10 @@ export default function LienHePage() {
                   Email
                 </p>
                 <a
-                  href="mailto:hello@noithatviet.vn"
+                  href="mailto:hello@luxuryhouse.vn"
                   className="text-base leading-relaxed font-light text-body hover:text-gold transition-colors duration-300"
                 >
-                  hello@noithatviet.vn
+                  hello@luxuryhouse.vn
                 </a>
               </div>
 
@@ -194,8 +194,7 @@ export default function LienHePage() {
                   <option value="">-- Chọn loại dự án --</option>
                   <option value="can-ho">Căn hộ</option>
                   <option value="nha-pho">Nhà phố</option>
-                  <option value="biet-thu">Biệt thự</option>
-                  <option value="van-phong">Văn phòng</option>
+                  <option value="cai-tao">Cải tạo không gian</option>
                   <option value="khac">Khác</option>
                 </select>
               </div>
@@ -254,7 +253,7 @@ export default function LienHePage() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Nội Thất Việt - 123 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh"
+          title="Luxury House - 123 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh"
         />
       </section>
 

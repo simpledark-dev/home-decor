@@ -11,25 +11,25 @@ const services = [
     number: "01",
     title: "Thiết Kế Nội Thất Căn Hộ",
     description:
-      "Biến căn hộ của bạn thành không gian sống lý tưởng với thiết kế tối ưu hóa diện tích và công năng. Chúng tôi mang đến giải pháp nội thất thông minh, phù hợp với phong cách sống hiện đại của gia đình bạn.",
+      "Biến căn hộ của bạn thành tổ ấm tiện nghi với thiết kế tối ưu diện tích và công năng sử dụng hàng ngày. Chúng tôi lắng nghe nhu cầu thực tế của gia đình bạn để mang đến giải pháp nội thất thông minh, phù hợp với ngân sách và lối sống.",
     offerings: [
-      "Thiết kế nội thất căn hộ chung cư cao cấp",
-      "Tối ưu hóa không gian cho căn hộ nhỏ",
+      "Thiết kế nội thất căn hộ chung cư 1-3 phòng ngủ",
+      "Tối ưu hóa không gian lưu trữ cho căn hộ nhỏ",
       "Thiết kế phong cách Scandinavian, Minimalist, Japandi",
-      "Tư vấn chọn vật liệu và nội thất phù hợp ngân sách",
+      "Tư vấn chọn vật liệu và nội thất phù hợp ngân sách gia đình",
     ],
     image:
       "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80",
   },
   {
     number: "02",
-    title: "Thiết Kế Nhà Phố",
+    title: "Thiết Kế Nội Thất Nhà Phố",
     description:
-      "Tạo nên những ngôi nhà phố đẹp, tiện nghi và đầy cá tính. Đội ngũ kiến trúc sư của chúng tôi sẽ giúp bạn khai thác tối đa tiềm năng của từng tầng, từng góc nhỏ trong ngôi nhà.",
+      "Tạo nên không gian sống ấm cúng và tiện nghi cho cả gia đình trong ngôi nhà phố của bạn. Chúng tôi giúp bạn khai thác tối đa tiềm năng của từng tầng, từng góc nhỏ để mỗi ngày ở nhà đều thoải mái.",
     offerings: [
-      "Thiết kế kiến trúc và nội thất nhà phố trọn gói",
+      "Thiết kế nội thất nhà phố trọn gói từ 1-4 tầng",
       "Giải pháp lấy sáng tự nhiên cho nhà phố hẹp",
-      "Thiết kế sân vườn, ban công và không gian xanh",
+      "Bố trí không gian sinh hoạt chung phù hợp gia đình nhiều thế hệ",
       "Phối hợp phong thủy trong thiết kế hiện đại",
     ],
     image:
@@ -37,42 +37,42 @@ const services = [
   },
   {
     number: "03",
-    title: "Thiết Kế Biệt Thự",
+    title: "Cải Tạo & Nâng Cấp Không Gian",
     description:
-      "Kiến tạo những không gian sống đẳng cấp, sang trọng dành cho biệt thự và penthouse. Mỗi thiết kế là một tác phẩm nghệ thuật, phản ánh gu thẩm mỹ tinh tế và phong cách sống thượng lưu.",
+      "Làm mới ngôi nhà hiện tại của bạn mà không cần xây dựng lại từ đầu. Chúng tôi giúp bạn cải tạo thông minh, tiết kiệm chi phí nhưng vẫn thay đổi rõ rệt diện mạo và công năng không gian sống hàng ngày.",
     offerings: [
-      "Thiết kế biệt thự nghỉ dưỡng và biệt thự phố",
-      "Nội thất luxury với vật liệu nhập khẩu cao cấp",
-      "Thiết kế hồ bơi, sân vườn và không gian ngoài trời",
-      "Hệ thống smarthome và tiện ích hiện đại",
-    ],
-    image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
-  },
-  {
-    number: "04",
-    title: "Cải Tạo Không Gian Sống",
-    description:
-      "Làm mới và nâng cấp không gian sống hiện tại của bạn mà không cần xây dựng lại từ đầu. Chúng tôi giúp bạn cải tạo thông minh, tiết kiệm chi phí mà vẫn đạt hiệu quả thẩm mỹ cao nhất.",
-    offerings: [
-      "Cải tạo và nâng cấp nội thất toàn diện",
-      "Thay đổi layout và bố trí lại không gian",
-      "Nâng cấp hệ thống chiếu sáng và điện nước",
-      "Tư vấn phong cách mới cho không gian cũ",
+      "Cải tạo và nâng cấp nội thất căn hộ, nhà phố",
+      "Thay đổi layout và bố trí lại không gian phù hợp nhu cầu mới",
+      "Nâng cấp hệ thống chiếu sáng, điện nước và tủ kệ",
+      "Tư vấn phong cách mới cho không gian cũ, tận dụng đồ nội thất hiện có",
     ],
     image:
       "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80",
   },
   {
+    number: "04",
+    title: "Thiết Kế Phòng Bếp & Phòng Tắm",
+    description:
+      "Hai không gian quan trọng nhất trong mọi ngôi nhà — nơi gia đình quây quần mỗi bữa cơm và nơi bạn thư giãn sau ngày dài. Chúng tôi thiết kế phòng bếp và phòng tắm vừa đẹp vừa thật sự tiện dụng cho sinh hoạt hàng ngày.",
+    offerings: [
+      "Thiết kế phòng bếp mở và bếp khép kín theo nhu cầu gia đình",
+      "Tối ưu hệ thống tủ bếp, kệ lưu trữ và bàn đảo",
+      "Thiết kế phòng tắm tiện nghi, chống ẩm và dễ vệ sinh",
+      "Tư vấn chọn thiết bị bếp và vệ sinh phù hợp ngân sách",
+    ],
+    image:
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+  },
+  {
     number: "05",
     title: "Thi Công Nội Thất Trọn Gói",
     description:
-      "Dịch vụ thi công trọn gói từ A đến Z, đảm bảo mọi chi tiết được thực hiện chính xác theo bản thiết kế. Đội ngũ thi công chuyên nghiệp, giám sát chặt chẽ và bàn giao đúng tiến độ cam kết.",
+      "Dịch vụ thi công trọn gói từ A đến Z cho căn hộ và nhà phố, đảm bảo mọi chi tiết được thực hiện chính xác theo bản thiết kế. Đội ngũ thợ thi công tay nghề cao, giám sát chặt chẽ và bàn giao đúng tiến độ để gia đình bạn sớm dọn về nhà mới.",
     offerings: [
-      "Thi công nội thất theo thiết kế đã duyệt",
-      "Cung cấp và lắp đặt nội thất trọn gói",
-      "Giám sát chất lượng công trình nghiêm ngặt",
-      "Bảo hành dài hạn và hỗ trợ bảo trì sau thi công",
+      "Thi công nội thất căn hộ và nhà phố theo thiết kế đã duyệt",
+      "Cung cấp và lắp đặt nội thất trọn gói, đồng bộ phong cách",
+      "Giám sát chất lượng công trình và báo cáo tiến độ hàng tuần",
+      "Bảo hành 5 năm và hỗ trợ bảo trì sau thi công",
     ],
     image:
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
@@ -81,16 +81,16 @@ const services = [
 
 const values = [
   {
-    number: "15+",
+    number: "8+",
     title: "Năm Kinh Nghiệm",
     description:
-      "Hơn 15 năm hoạt động trong lĩnh vực thiết kế và thi công nội thất, mang đến sự am hiểu sâu sắc về thị trường.",
+      "Hơn 8 năm chuyên tâm thiết kế và thi công nội thất nhà ở, am hiểu sâu nhu cầu thực tế của gia đình Việt.",
   },
   {
-    number: "50+",
+    number: "20+",
     title: "Đội Ngũ Chuyên Gia",
     description:
-      "Hơn 50 kiến trúc sư, nhà thiết kế và kỹ sư giàu kinh nghiệm, luôn sẵn sàng phục vụ khách hàng.",
+      "Hơn 20 kiến trúc sư, nhà thiết kế và thợ thi công tay nghề cao, tận tâm đồng hành cùng từng dự án.",
   },
   {
     number: "05",
@@ -116,7 +116,7 @@ export default function DichVuPage() {
         label="Dịch Vụ"
         title="Giải Pháp Thiết Kế"
         highlight="Chuyên Nghiệp"
-        description="Chúng tôi cung cấp dịch vụ thiết kế và thi công nội thất toàn diện, từ tư vấn ý tưởng đến hoàn thiện công trình, đáp ứng mọi nhu cầu về không gian sống và làm việc."
+        description="Luxury House cung cấp dịch vụ thiết kế và thi công nội thất chuyên biệt cho căn hộ và nhà phố, từ tư vấn ý tưởng đến hoàn thiện công trình, giúp gia đình bạn có không gian sống đẹp và tiện nghi."
       />
 
       {/* Main Services */}

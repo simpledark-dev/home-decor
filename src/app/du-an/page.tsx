@@ -12,10 +12,7 @@ import { projects } from "@/lib/projects";
 const filters = [
   { label: "Tất cả", value: "all" },
   { label: "Căn Hộ", value: "Căn Hộ" },
-  { label: "Biệt Thự", value: "Biệt Thự" },
   { label: "Nhà Phố", value: "Nhà Phố" },
-  { label: "Nghỉ Dưỡng", value: "Nghỉ Dưỡng" },
-  { label: "Thương mại", value: "Thương mại" },
 ];
 
 function matchesFilter(category: string, filter: string): boolean {

@@ -27,8 +27,8 @@ export default function HomePage() {
               <span className="text-gold italic">Đẳng Cấp</span>
             </h1>
             <p className="text-base leading-relaxed text-body max-w-[440px] mb-12 font-light">
-              Chúng tôi mang đến những thiết kế nội thất tinh tế, nơi mỗi chi tiết
-              đều được chau chuốt để tạo nên không gian sống hoàn hảo cho gia đình bạn.
+              Chúng tôi chuyên thiết kế và thi công nội thất cho căn hộ chung cư và
+              nhà phố, mang đến không gian sống tinh tế và trọn vẹn cho gia đình bạn.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -58,10 +58,10 @@ export default function HomePage() {
       <section className="bg-cream py-20 px-10">
         <div className="reveal stagger max-w-[1200px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
           {[
-            { number: "15+", label: "Năm Kinh Nghiệm" },
-            { number: "500+", label: "Dự Án Hoàn Thành" },
-            { number: "50+", label: "Giải Thưởng Thiết Kế" },
-            { number: "98%", label: "Khách Hàng Hài Lòng" },
+            { number: "8+", label: "Năm Kinh Nghiệm" },
+            { number: "200+", label: "Dự Án Hoàn Thành" },
+            { number: "100%", label: "Cam Kết Chất Lượng" },
+            { number: "95%", label: "Khách Hàng Hài Lòng" },
           ].map((stat) => (
             <div key={stat.label}>
               <div className="font-serif text-gold text-5xl font-semibold mb-2">
@@ -120,15 +120,15 @@ export default function HomePage() {
             {[
               {
                 title: "Thiết Kế Nội Thất",
-                desc: "Từ ý tưởng đến bản vẽ 3D chi tiết, chúng tôi kiến tạo không gian sống phản ánh cá tính và phong cách riêng của bạn.",
+                desc: "Thiết kế nội thất trọn gói cho căn hộ chung cư và nhà phố, từ ý tưởng đến bản vẽ 3D chi tiết theo phong cách riêng của bạn.",
               },
               {
                 title: "Thi Công Trọn Gói",
-                desc: "Đội ngũ thợ lành nghề với quy trình quản lý chất lượng nghiêm ngặt, đảm bảo mỗi chi tiết đều hoàn hảo.",
+                desc: "Thi công nội thất nhà ở với đội ngũ thợ lành nghề, quy trình giám sát chặt chẽ, đảm bảo đúng tiến độ và chất lượng.",
               },
               {
-                title: "Tư Vấn & Quản Lý",
-                desc: "Tư vấn phong thủy, lựa chọn vật liệu cao cấp và quản lý dự án chuyên nghiệp từ A đến Z.",
+                title: "Tư Vấn Phong Cách",
+                desc: "Tư vấn phong cách sống, phong thủy và lựa chọn vật liệu phù hợp để tạo nên không gian sống lý tưởng cho gia đình.",
               },
             ].map((service) => (
               <div
@@ -187,19 +187,19 @@ export default function HomePage() {
           <div className="reveal stagger grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
               {
-                quote: "Đội ngũ Nội Thất Việt đã biến ngôi nhà của chúng tôi thành một tác phẩm nghệ thuật. Mỗi góc nhỏ đều mang lại cảm giác sang trọng và ấm cúng.",
+                quote: "Luxury House đã biến căn hộ của chúng tôi thành một không gian sống tuyệt vời. Mỗi góc nhỏ đều mang lại cảm giác sang trọng và ấm cúng.",
                 name: "Nguyễn Minh Anh",
-                title: "Chủ nhân Penthouse Quận 2",
+                title: "Chủ căn hộ Quận 2",
               },
               {
-                quote: "Sự chuyên nghiệp và tận tâm của đội ngũ khiến tôi hoàn toàn yên tâm. Dự án hoàn thành đúng tiến độ với chất lượng vượt xa mong đợi.",
+                quote: "Sự chuyên nghiệp và tận tâm của đội ngũ khiến tôi hoàn toàn yên tâm. Căn nhà hoàn thành đúng tiến độ với chất lượng vượt xa mong đợi.",
                 name: "Trần Đức Huy",
-                title: "Giám đốc Công ty BĐS",
+                title: "Gia chủ nhà phố Gò Vấp",
               },
               {
-                quote: "Phong cách thiết kế tinh tế, hiểu rõ xu hướng quốc tế nhưng vẫn giữ được nét Việt. Tôi đã giới thiệu cho rất nhiều bạn bè.",
+                quote: "Phong cách thiết kế tinh tế, hiểu rõ nhu cầu thực tế của gia đình. Tôi đã giới thiệu cho rất nhiều bạn bè và người thân.",
                 name: "Lê Thanh Hà",
-                title: "Chủ nhân Biệt thự Quận 7",
+                title: "Chủ căn hộ chung cư Quận 7",
               },
             ].map((t) => (
               <div key={t.name} className="bg-white p-12">

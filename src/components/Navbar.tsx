@@ -31,7 +31,7 @@ export default function Navbar() {
     >
       <div className="max-w-[1400px] mx-auto px-10 py-5 flex justify-between items-center">
         <Link href="/" className="font-serif text-2xl font-semibold tracking-wide">
-          <span className="text-gold">NỘI THẤT</span> VIỆT
+          <span className="text-gold">LUXURY</span> HOUSE
         </Link>
 
         {/* Desktop nav */}
