@@ -1,234 +1,231 @@
 import Link from "next/link";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import ScrollReveal from "@/components/ScrollReveal";
+import SectionHeader from "@/components/SectionHeader";
+import CTABanner from "@/components/CTABanner";
+import { projects } from "@/lib/projects";
 
-const concepts = [
-  {
-    id: 1,
-    name: "Minimal Luxury",
-    nameVi: "Sang Trọng Tối Giản",
-    description:
-      "Clean, gallery-like whitespace. Playfair Display + Inter. Black, white & gold (#C9A96E). Quiet opulence with refined details.",
-    palette: ["#1a1a1a", "#ffffff", "#C9A96E", "#fafaf8"],
-    typography: "Playfair Display + Inter",
-    mood: "Gallery • Serene • Opulent",
-  },
-  {
-    id: 2,
-    name: "Editorial Magazine",
-    nameVi: "Tạp Chí Biên Tập",
-    description:
-      "Bold typography, asymmetric layouts, story-driven. DM Serif Display + Space Grotesk. Navy, cream & crimson (#8B2635). Dramatic and narrative.",
-    palette: ["#1A1A2E", "#F5F0E8", "#8B2635", "#d4cfc7"],
-    typography: "DM Serif Display + Space Grotesk",
-    mood: "Bold • Narrative • Dramatic",
-  },
-  {
-    id: 3,
-    name: "Modern Architectural",
-    nameVi: "Kiến Trúc Hiện Đại",
-    description:
-      "Geometric precision, grid-based systems. Archivo Black + DM Sans. Charcoal, concrete & teal (#4A7C7E). Structured and professional.",
-    palette: ["#2D2D2D", "#F5F3F0", "#4A7C7E", "#E8E4E0"],
-    typography: "Archivo Black + DM Sans",
-    mood: "Geometric • Precise • Cool",
-  },
-  {
-    id: 4,
-    name: "Warm Organic Luxury",
-    nameVi: "Ấm Áp Tự Nhiên",
-    description:
-      "Flowing curves, rounded elements, natural textures. Cormorant Garamond + Lato. Cream, terracotta (#B87333) & deep brown. Inviting warmth.",
-    palette: ["#3C2415", "#FAF6F0", "#B87333", "#F3EDE4"],
-    typography: "Cormorant Garamond + Lato",
-    mood: "Warm • Natural • Inviting",
-  },
-  {
-    id: 5,
-    name: "Contemporary Refined",
-    nameVi: "Đương Đại Tinh Tế",
-    description:
-      "Inspired by AMY.vn — refined minimalism with dynamic interactions. Inter + Montserrat. White, off-white (#f1f0e8), charcoal & deep red (#950000). Scroll-reveal animations.",
-    palette: ["#333333", "#f1f0e8", "#950000", "#f7f7f7"],
-    typography: "Inter + Montserrat",
-    mood: "Refined • Dynamic • Editorial",
-  },
-  {
-    id: 6,
-    name: "Cinematic Noir Luxury",
-    nameVi: "Xa Hoa Điện Ảnh",
-    description:
-      "The showstopper. Dark cinematic aesthetic with parallax hero, animated counters, horizontal-scroll gallery, auto-rotating testimonials, film grain overlay, floating particles & scroll progress bar. Playfair Display + Outfit.",
-    palette: ["#0C0C0C", "#F2EDE8", "#C4A265", "#7A8B6F"],
-    typography: "Playfair Display + Outfit",
-    mood: "Cinematic • Immersive • Noir",
-  },
-];
-
-export default function ConceptSelector() {
+export default function HomePage() {
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        background: "#0a0a0a",
-        color: "#fff",
-        fontFamily: "system-ui, sans-serif",
-      }}
-    >
-      {/* Header */}
-      <div
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "80px 48px 48px",
-          textAlign: "center",
-        }}
-      >
-        <div
-          style={{
-            fontSize: 12,
-            letterSpacing: 4,
-            textTransform: "uppercase",
-            color: "#666",
-            marginBottom: 16,
-          }}
-        >
-          Nội Thất Việt — Design Concepts
-        </div>
-        <h1
-          style={{
-            fontSize: 48,
-            fontWeight: 300,
-            lineHeight: 1.3,
-            marginBottom: 16,
-          }}
-        >
-          Chọn Phong Cách Thiết Kế
-        </h1>
-        <p
-          style={{
-            fontSize: 16,
-            color: "#888",
-            maxWidth: 600,
-            margin: "0 auto",
-            lineHeight: 1.7,
-          }}
-        >
-          4 concept homepage hoàn chỉnh. Click vào mỗi concept để xem trang đầy đủ.
-        </p>
-      </div>
+    <>
+      <ScrollReveal />
+      <Navbar />
 
-      {/* Concept Grid */}
-      <div
-        style={{
-          maxWidth: 1200,
-          margin: "0 auto",
-          padding: "0 48px 80px",
-          display: "grid",
-          gridTemplateColumns: "repeat(2, 1fr)",
-          gap: 24,
-        }}
-      >
-        {concepts.map((concept) => (
-          <Link
-            key={concept.id}
-            href={`/concept-${concept.id}`}
-            style={{
-              textDecoration: "none",
-              color: "#fff",
-              border: "1px solid rgba(255,255,255,0.1)",
-              padding: 40,
-              transition: "all 0.4s ease",
-              display: "block",
-              position: "relative",
-              overflow: "hidden",
-            }}
-          >
-            {/* Concept Number */}
-            <div
-              style={{
-                fontSize: 64,
-                fontWeight: 200,
-                color: "rgba(255,255,255,0.06)",
-                position: "absolute",
-                top: 16,
-                right: 24,
-                lineHeight: 1,
-              }}
-            >
-              0{concept.id}
+      {/* Hero Section */}
+      <section className="min-h-screen flex items-center pt-20">
+        <div className="max-w-[1400px] mx-auto px-10 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center w-full">
+          <div>
+            <div className="text-[11px] tracking-[4px] uppercase text-gold mb-4 font-medium">
+              Studio Thiết Kế Nội Thất Cao Cấp
             </div>
-
-            {/* Palette Preview */}
-            <div style={{ display: "flex", gap: 8, marginBottom: 24 }}>
-              {concept.palette.map((color) => (
-                <div
-                  key={color}
-                  style={{
-                    width: 32,
-                    height: 32,
-                    borderRadius: 4,
-                    background: color,
-                    border: "1px solid rgba(255,255,255,0.15)",
-                  }}
-                />
-              ))}
-            </div>
-
-            {/* Name */}
-            <h2 style={{ fontSize: 28, fontWeight: 600, marginBottom: 4 }}>
-              {concept.name}
-            </h2>
-            <div
-              style={{
-                fontSize: 14,
-                color: "#888",
-                marginBottom: 16,
-              }}
-            >
-              {concept.nameVi}
-            </div>
-
-            {/* Description */}
-            <p
-              style={{
-                fontSize: 14,
-                lineHeight: 1.7,
-                color: "#999",
-                marginBottom: 24,
-              }}
-            >
-              {concept.description}
+            <h1 className="font-serif text-5xl lg:text-[64px] font-normal leading-[1.1] mb-8">
+              Kiến Tạo
+              <br />
+              Không Gian
+              <br />
+              <span className="text-gold italic">Đẳng Cấp</span>
+            </h1>
+            <p className="text-base leading-relaxed text-body max-w-[440px] mb-12 font-light">
+              Chúng tôi mang đến những thiết kế nội thất tinh tế, nơi mỗi chi tiết
+              đều được chau chuốt để tạo nên không gian sống hoàn hảo cho gia đình bạn.
             </p>
-
-            {/* Meta */}
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                borderTop: "1px solid rgba(255,255,255,0.08)",
-                paddingTop: 16,
-                fontSize: 12,
-                color: "#666",
-              }}
-            >
-              <span>{concept.typography}</span>
-              <span>{concept.mood}</span>
+            <div className="flex flex-wrap gap-4">
+              <Link
+                href="/lien-he"
+                className="bg-gold text-white px-12 py-4 text-[13px] tracking-[2px] uppercase font-medium hover:bg-dark transition-colors duration-400"
+              >
+                Đặt Lịch Tư Vấn
+              </Link>
+              <Link
+                href="/du-an"
+                className="border border-gold text-gold px-12 py-4 text-[13px] tracking-[2px] uppercase font-medium hover:bg-gold hover:text-white transition-colors duration-400"
+              >
+                Xem Dự Án
+              </Link>
             </div>
+          </div>
+          <div
+            className="h-[400px] lg:h-[600px] bg-cover bg-center bg-no-repeat bg-[#f5f5f0]"
+            style={{
+              backgroundImage: "url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=960&q=80')",
+            }}
+          />
+        </div>
+      </section>
 
-            {/* CTA */}
-            <div
-              style={{
-                marginTop: 24,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: 1,
-                color: "#fff",
-              }}
-            >
-              Xem Concept →
+      {/* Trust Indicators */}
+      <section className="bg-cream py-20 px-10">
+        <div className="reveal stagger max-w-[1200px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+          {[
+            { number: "15+", label: "Năm Kinh Nghiệm" },
+            { number: "500+", label: "Dự Án Hoàn Thành" },
+            { number: "50+", label: "Giải Thưởng Thiết Kế" },
+            { number: "98%", label: "Khách Hàng Hài Lòng" },
+          ].map((stat) => (
+            <div key={stat.label}>
+              <div className="font-serif text-gold text-5xl font-semibold mb-2">
+                {stat.number}
+              </div>
+              <div className="text-xs tracking-[3px] uppercase text-muted">
+                {stat.label}
+              </div>
             </div>
-          </Link>
-        ))}
-      </div>
-    </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Featured Projects */}
+      <section className="py-30 px-10">
+        <div className="max-w-[1400px] mx-auto">
+          <SectionHeader label="Portfolio" title="Dự Án" highlight="Nổi Bật" />
+          <div className="reveal stagger grid grid-cols-1 md:grid-cols-3 gap-8">
+            {projects.slice(0, 3).map((project) => (
+              <Link
+                key={project.slug}
+                href={`/du-an/${project.slug}`}
+                className="group block hover-lift cursor-pointer"
+              >
+                <div className="overflow-hidden mb-6 img-zoom">
+                  <div
+                    className="img-cover h-[400px] bg-cover bg-center bg-no-repeat bg-[#f5f5f0]"
+                    style={{ backgroundImage: `url('${project.img}')` }}
+                  />
+                </div>
+                <div className="text-[11px] tracking-[3px] uppercase text-gold mb-2">
+                  {project.category} — {project.area}
+                </div>
+                <h3 className="font-serif text-2xl font-medium group-hover:text-gold transition-colors duration-300">
+                  {project.title}
+                </h3>
+              </Link>
+            ))}
+          </div>
+          <div className="reveal text-center mt-16">
+            <Link
+              href="/du-an"
+              className="inline-block border border-gold text-gold px-12 py-4 text-[13px] tracking-[2px] uppercase font-medium hover:bg-gold hover:text-white transition-colors duration-400"
+            >
+              Xem Tất Cả Dự Án
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Services */}
+      <section className="bg-dark text-white py-30 px-10">
+        <div className="max-w-[1400px] mx-auto">
+          <SectionHeader label="Dịch Vụ" title="Giải Pháp Thiết Kế" highlight="Toàn Diện" light />
+          <div className="reveal stagger grid grid-cols-1 md:grid-cols-3 gap-10">
+            {[
+              {
+                title: "Thiết Kế Nội Thất",
+                desc: "Từ ý tưởng đến bản vẽ 3D chi tiết, chúng tôi kiến tạo không gian sống phản ánh cá tính và phong cách riêng của bạn.",
+              },
+              {
+                title: "Thi Công Trọn Gói",
+                desc: "Đội ngũ thợ lành nghề với quy trình quản lý chất lượng nghiêm ngặt, đảm bảo mỗi chi tiết đều hoàn hảo.",
+              },
+              {
+                title: "Tư Vấn & Quản Lý",
+                desc: "Tư vấn phong thủy, lựa chọn vật liệu cao cấp và quản lý dự án chuyên nghiệp từ A đến Z.",
+              },
+            ].map((service) => (
+              <div
+                key={service.title}
+                className="p-12 border border-white/10 hover:border-gold/50 transition-all duration-400"
+              >
+                <div className="text-gold text-2xl mb-6">✦</div>
+                <h3 className="font-serif text-2xl font-medium mb-4 text-white">
+                  {service.title}
+                </h3>
+                <p className="text-sm leading-relaxed text-white/60 font-light">
+                  {service.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+          <div className="reveal text-center mt-16">
+            <Link
+              href="/dich-vu"
+              className="inline-block border border-gold text-gold px-12 py-4 text-[13px] tracking-[2px] uppercase font-medium hover:bg-gold hover:text-white transition-colors duration-400"
+            >
+              Tìm Hiểu Thêm
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Design Process */}
+      <section className="py-30 px-10">
+        <div className="max-w-[1200px] mx-auto">
+          <SectionHeader label="Quy Trình" title="Hành Trình" highlight="Sáng Tạo" />
+          <div className="reveal stagger grid grid-cols-2 md:grid-cols-4 gap-12">
+            {[
+              { step: "01", title: "Tư Vấn", desc: "Lắng nghe nhu cầu, tìm hiểu phong cách sống và ngân sách của bạn." },
+              { step: "02", title: "Thiết Kế", desc: "Phát triển concept, bản vẽ 2D/3D và lựa chọn vật liệu phù hợp." },
+              { step: "03", title: "Thi Công", desc: "Triển khai thi công với đội ngũ chuyên nghiệp, giám sát chặt chẽ." },
+              { step: "04", title: "Bàn Giao", desc: "Hoàn thiện, bàn giao và hỗ trợ bảo hành dài hạn cho công trình." },
+            ].map((item) => (
+              <div key={item.step} className="text-center">
+                <div className="font-serif text-gold text-[56px] font-light leading-none mb-6">
+                  {item.step}
+                </div>
+                <div className="bg-gold w-[30px] h-px mx-auto mb-6" />
+                <h3 className="font-serif text-[22px] font-medium mb-3">{item.title}</h3>
+                <p className="text-sm leading-relaxed text-muted font-light">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="bg-cream py-30 px-10">
+        <div className="max-w-[1200px] mx-auto">
+          <SectionHeader label="Khách Hàng Nói Gì" title="Niềm Tin" highlight="Được Gửi Gắm" />
+          <div className="reveal stagger grid grid-cols-1 md:grid-cols-3 gap-10">
+            {[
+              {
+                quote: "Đội ngũ Nội Thất Việt đã biến ngôi nhà của chúng tôi thành một tác phẩm nghệ thuật. Mỗi góc nhỏ đều mang lại cảm giác sang trọng và ấm cúng.",
+                name: "Nguyễn Minh Anh",
+                title: "Chủ nhân Penthouse Quận 2",
+              },
+              {
+                quote: "Sự chuyên nghiệp và tận tâm của đội ngũ khiến tôi hoàn toàn yên tâm. Dự án hoàn thành đúng tiến độ với chất lượng vượt xa mong đợi.",
+                name: "Trần Đức Huy",
+                title: "Giám đốc Công ty BĐS",
+              },
+              {
+                quote: "Phong cách thiết kế tinh tế, hiểu rõ xu hướng quốc tế nhưng vẫn giữ được nét Việt. Tôi đã giới thiệu cho rất nhiều bạn bè.",
+                name: "Lê Thanh Hà",
+                title: "Chủ nhân Biệt thự Quận 7",
+              },
+            ].map((t) => (
+              <div key={t.name} className="bg-white p-12">
+                <div className="font-serif text-gold text-[64px] leading-none mb-4 opacity-30">
+                  &ldquo;
+                </div>
+                <p className="text-[15px] leading-relaxed text-[#555] font-light mb-8 italic">
+                  {t.quote}
+                </p>
+                <div className="bg-gold w-[30px] h-px mb-4" />
+                <div className="font-serif text-base font-semibold mb-1">{t.name}</div>
+                <div className="text-xs text-subtle tracking-wider">{t.title}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <CTABanner
+        title="Biến Giấc Mơ Thành"
+        highlight="Hiện Thực"
+        description="Đặt lịch tư vấn miễn phí với đội ngũ chuyên gia của chúng tôi. Hãy để chúng tôi lắng nghe và kiến tạo không gian sống trong mơ của bạn."
+      />
+
+      <Footer />
+    </>
   );
 }

@@ -1,20 +1,26 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin", "vietnamese"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin", "vietnamese"],
+  weight: ["300", "400", "500", "600"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Nội Thất Việt - Thiết Kế Nội Thất Cao Cấp",
-  description: "Studio thiết kế nội thất cao cấp hàng đầu Việt Nam",
+  title: "Nội Thất Việt — Thiết Kế Nội Thất Cao Cấp",
+  description:
+    "Studio thiết kế nội thất cao cấp hàng đầu Việt Nam. Kiến tạo không gian sống đẳng cấp với phong cách tinh tế.",
 };
 
 export default function RootLayout({
@@ -23,12 +29,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="vi">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+    <html lang="vi" className={`${playfair.variable} ${inter.variable}`}>
+      <body className="font-sans antialiased">{children}</body>
     </html>
   );
 }
