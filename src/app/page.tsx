@@ -28,7 +28,7 @@ export default function HomePage() {
             </h1>
             <p className="text-base leading-relaxed text-body max-w-[440px] mb-12 font-light">
               Chúng tôi chuyên thiết kế và thi công nội thất cho căn hộ chung cư và
-              nhà phố, mang đến không gian sống tinh tế và trọn vẹn cho gia đình bạn.
+              nhà phố tại Đà Nẵng, mang đến không gian sống tinh tế và trọn vẹn cho gia đình bạn.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -189,17 +189,17 @@ export default function HomePage() {
               {
                 quote: "Luxury House đã biến căn hộ của chúng tôi thành một không gian sống tuyệt vời. Mỗi góc nhỏ đều mang lại cảm giác sang trọng và ấm cúng.",
                 name: "Nguyễn Minh Anh",
-                title: "Chủ căn hộ Quận 2",
+                title: "Chủ căn hộ Sơn Trà",
               },
               {
                 quote: "Sự chuyên nghiệp và tận tâm của đội ngũ khiến tôi hoàn toàn yên tâm. Căn nhà hoàn thành đúng tiến độ với chất lượng vượt xa mong đợi.",
                 name: "Trần Đức Huy",
-                title: "Gia chủ nhà phố Gò Vấp",
+                title: "Gia chủ nhà phố Hải Châu",
               },
               {
                 quote: "Phong cách thiết kế tinh tế, hiểu rõ nhu cầu thực tế của gia đình. Tôi đã giới thiệu cho rất nhiều bạn bè và người thân.",
                 name: "Lê Thanh Hà",
-                title: "Chủ căn hộ chung cư Quận 7",
+                title: "Chủ căn hộ chung cư Ngũ Hành Sơn",
               },
             ].map((t) => (
               <div key={t.name} className="bg-white p-12">

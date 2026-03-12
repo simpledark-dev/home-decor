@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="text-gold">LUXURY</span> HOUSE
             </div>
             <p className="text-sm leading-relaxed font-light max-w-[280px]">
-              Studio thiết kế nội thất chuyên biệt cho căn hộ và nhà phố tại TP. Hồ Chí Minh.
+              Studio thiết kế nội thất chuyên biệt cho căn hộ và nhà phố tại Đà Nẵng.
             </p>
           </div>
 
@@ -63,9 +63,9 @@ export default function Footer() {
               Liên hệ
             </div>
             <div className="text-sm leading-[2.2]">
-              <div>123 Nguyễn Huệ, Q.1</div>
-              <div>TP. Hồ Chí Minh</div>
-              <div>(028) 1234 5678</div>
+              <div>Đống Đa, Thạch Thang</div>
+              <div>Hải Châu, Đà Nẵng</div>
+              <div>0399 281 280</div>
               <div>hello@luxuryhouse.vn</div>
             </div>
           </div>

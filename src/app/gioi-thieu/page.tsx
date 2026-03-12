@@ -17,7 +17,7 @@ export default function AboutPage() {
         label="Về Chúng Tôi"
         title="Câu Chuyện"
         highlight="Luxury House"
-        description="Từ năm 2016, chúng tôi đã đồng hành cùng hàng trăm gia đình tại TP.HCM, mang đến những không gian sống đẹp và tiện nghi cho căn hộ và nhà phố — nơi mỗi góc nhỏ đều chứa đựng tâm huyết của đội ngũ."
+        description="Từ năm 2016, chúng tôi đã đồng hành cùng hàng trăm gia đình tại Đà Nẵng, mang đến những không gian sống đẹp và tiện nghi cho căn hộ và nhà phố — nơi mỗi góc nhỏ đều chứa đựng tâm huyết của đội ngũ."
       />
 
       {/* Studio Story */}
@@ -43,8 +43,8 @@ export default function AboutPage() {
             <div className="space-y-6">
               <p className="text-base leading-relaxed font-light text-body">
                 Luxury House ra đời vào năm 2016, khởi đầu từ một nhóm nhỏ gồm 3
-                nhà thiết kế đầy đam mê tại Sài Gòn. Chúng tôi bắt đầu với một ước
-                mơ giản dị: giúp các gia đình tại TP.HCM có được không gian sống đẹp,
+                nhà thiết kế đầy đam mê tại Đà Nẵng. Chúng tôi bắt đầu với một ước
+                mơ giản dị: giúp các gia đình tại Đà Nẵng có được không gian sống đẹp,
                 tiện nghi và mang đậm dấu ấn cá nhân.
               </p>
               <p className="text-base leading-relaxed font-light text-body">

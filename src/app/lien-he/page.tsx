@@ -36,10 +36,10 @@ export default function LienHePage() {
             Gọi ngay cho chúng tôi để được tư vấn miễn phí và nhận báo giá trong vòng 24 giờ
           </p>
           <a
-            href="tel:02812345678"
+            href="tel:0399281280"
             className="font-serif text-[40px] text-dark hover:text-gold transition-colors duration-400 block mb-4"
           >
-            (028) 1234 5678
+            0399 281 280
           </a>
           <p className="text-muted text-sm font-light">
             Hoặc điền form bên dưới
@@ -65,9 +65,9 @@ export default function LienHePage() {
                   Địa chỉ
                 </p>
                 <p className="text-base leading-relaxed font-light text-body">
-                  123 Nguyễn Huệ, Quận 1,
+                  Đống Đa, Thạch Thang,
                   <br />
-                  TP. Hồ Chí Minh
+                  Hải Châu, Đà Nẵng 550000
                 </p>
               </div>
 
@@ -76,10 +76,10 @@ export default function LienHePage() {
                   Điện thoại
                 </p>
                 <a
-                  href="tel:02812345678"
+                  href="tel:0399281280"
                   className="text-base leading-relaxed font-light text-body hover:text-gold transition-colors duration-300"
                 >
-                  (028) 1234 5678
+                  0399 281 280
                 </a>
               </div>
 
@@ -246,14 +246,14 @@ export default function LienHePage() {
       {/* Google Maps */}
       <section className="w-full">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4241674197956!2d106.70232!3d10.77627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4670702e31%3A0xa5777fb3a5bb9972!2zMTIzIE5ndXnhu4VuIEh14buHLCBC4bq_biBOZ2jDqSwgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.8367675687855!2d108.2207!3d16.0678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c1c4e5e36d%3A0x2d756e92a5e9a5f5!2zxJDhu5FuZyDEkGEsIFRo4bqhY2ggVGhhbmcsIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZw!5e0!3m2!1svi!2s!4v1"
           width="100%"
           height="400"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Luxury House - 123 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh"
+          title="Luxury House - Đống Đa, Thạch Thang, Hải Châu, Đà Nẵng"
         />
       </section>
 

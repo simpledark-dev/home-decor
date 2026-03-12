@@ -20,7 +20,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Luxury House — Thiết Kế Nội Thất Cao Cấp",
   description:
-    "Studio thiết kế nội thất cao cấp chuyên biệt cho căn hộ và nhà phố tại TP. Hồ Chí Minh. Kiến tạo không gian sống đẳng cấp.",
+    "Studio thiết kế nội thất cao cấp chuyên biệt cho căn hộ và nhà phố tại Đà Nẵng. Kiến tạo không gian sống đẳng cấp.",
 };
 
 export default function RootLayout({
