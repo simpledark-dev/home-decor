@@ -18,9 +18,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Luxury House — Thiết Kế Nội Thất Cao Cấp",
+  title: "The SEA — Sofa May Đo & Nội Thất Hiện Đại",
   description:
-    "Studio thiết kế nội thất cao cấp chuyên biệt cho căn hộ và nhà phố tại Đà Nẵng. Kiến tạo không gian sống đẳng cấp.",
+    "Sofa may đo và nội thất hiện đại tại Đà Nẵng. Đơn giản, hiện đại, nhiều công năng, giá tối ưu. Chuyên sofa, nội thất gỗ theo yêu cầu.",
 };
 
 export default function RootLayout({

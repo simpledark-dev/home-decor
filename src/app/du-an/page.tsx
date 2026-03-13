@@ -11,8 +11,8 @@ import { projects } from "@/lib/projects";
 
 const filters = [
   { label: "Tất cả", value: "all" },
-  { label: "Căn Hộ", value: "Căn Hộ" },
-  { label: "Nhà Phố", value: "Nhà Phố" },
+  { label: "Sofa", value: "Sofa" },
+  { label: "Nội Thất Gỗ", value: "Nội Thất Gỗ" },
 ];
 
 function matchesFilter(category: string, filter: string): boolean {
@@ -33,10 +33,10 @@ export default function PortfolioPage() {
       <Navbar />
 
       <PageHero
-        label="Portfolio"
-        title="Dự Án"
-        highlight="Tiêu Biểu"
-        description="Khám phá bộ sưu tập các dự án thiết kế nội thất tiêu biểu mà chúng tôi đã thực hiện, từ căn hộ cao cấp đến biệt thự và không gian thương mại."
+        label="Bộ Sưu Tập"
+        title="Sản Phẩm"
+        highlight="Nổi Bật"
+        description="Khám phá bộ sưu tập nội thất của The SEA — từ sofa thiết kế riêng đến nội thất gỗ hiện đại, mỗi sản phẩm đều được chế tác tỉ mỉ tại Đà Nẵng."
       />
 
       {/* Filter Tabs */}
@@ -60,7 +60,7 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      {/* Project Grid */}
+      {/* Product Grid */}
       <section className="pb-30 px-10">
         <div className="max-w-[1400px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -105,7 +105,7 @@ export default function PortfolioPage() {
           {filteredProjects.length === 0 && (
             <div className="text-center py-20">
               <p className="text-body text-base font-light">
-                Không có dự án nào trong danh mục này.
+                Không có sản phẩm nào trong danh mục này.
               </p>
             </div>
           )}
@@ -113,9 +113,9 @@ export default function PortfolioPage() {
       </section>
 
       <CTABanner
-        title="Bạn có dự án cần thiết kế?"
+        title="Bạn muốn đặt hàng?"
         highlight="Liên hệ ngay"
-        description="Hãy chia sẻ ý tưởng của bạn với chúng tôi. Đội ngũ thiết kế sẽ tư vấn giải pháp phù hợp nhất cho không gian sống của bạn."
+        description="Hãy liên hệ với The SEA để đặt sofa thiết kế riêng hoặc nội thất gỗ theo yêu cầu. Đội ngũ của chúng tôi sẵn sàng tư vấn và báo giá cho bạn."
       />
 
       <Footer />

@@ -9,100 +9,100 @@ import CTABanner from "@/components/CTABanner";
 const services = [
   {
     number: "01",
-    title: "Thiết Kế Nội Thất Căn Hộ",
+    title: "Sofa May Đo",
     description:
-      "Biến căn hộ của bạn thành tổ ấm tiện nghi với thiết kế tối ưu diện tích và công năng sử dụng hàng ngày. Chúng tôi lắng nghe nhu cầu thực tế của gia đình bạn để mang đến giải pháp nội thất thông minh, phù hợp với ngân sách và lối sống.",
+      "Sofa được may đo theo đúng kích thước, chất liệu vải, màu sắc và phong cách bạn yêu thích. Từ sofa 2 chỗ nhỏ gọn cho căn hộ đến sofa chữ L rộng rãi cho phòng khách lớn, The SEA đảm bảo sản phẩm vừa vặn hoàn hảo với không gian của bạn.",
     offerings: [
-      "Thiết kế nội thất căn hộ chung cư 1-3 phòng ngủ",
-      "Tối ưu hóa không gian lưu trữ cho căn hộ nhỏ",
-      "Thiết kế phong cách Scandinavian, Minimalist, Japandi",
-      "Tư vấn chọn vật liệu và nội thất phù hợp ngân sách gia đình",
+      "May đo sofa theo kích thước chính xác của không gian",
+      "Tự chọn chất liệu vải: vải bố, vải nhung, da công nghiệp, vải chống thấm",
+      "Đa dạng kiểu dáng: sofa băng, sofa góc L, sofa bed đa năng",
+      "Thiết kế đơn giản, hiện đại, phù hợp mọi phong cách nội thất",
     ],
     image:
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
   },
   {
     number: "02",
-    title: "Thiết Kế Nội Thất Nhà Phố",
+    title: "Nội Thất Gỗ Theo Yêu Cầu",
     description:
-      "Tạo nên không gian sống ấm cúng và tiện nghi cho cả gia đình trong ngôi nhà phố của bạn. Chúng tôi giúp bạn khai thác tối đa tiềm năng của từng tầng, từng góc nhỏ để mỗi ngày ở nhà đều thoải mái.",
+      "Sản xuất nội thất gỗ theo yêu cầu: kệ sách, bàn ăn, kệ TV, bàn làm việc, tủ quần áo. Thiết kế đơn giản, hiện đại với chất liệu gỗ tự nhiên và gỗ công nghiệp cao cấp, tối ưu công năng sử dụng và phù hợp ngân sách.",
     offerings: [
-      "Thiết kế nội thất nhà phố trọn gói từ 1-4 tầng",
-      "Giải pháp lấy sáng tự nhiên cho nhà phố hẹp",
-      "Bố trí không gian sinh hoạt chung phù hợp gia đình nhiều thế hệ",
-      "Phối hợp phong thủy trong thiết kế hiện đại",
+      "Kệ sách, kệ trang trí thiết kế tối giản theo kích thước yêu cầu",
+      "Bàn ăn, bàn làm việc gỗ tự nhiên và gỗ công nghiệp",
+      "Kệ TV, tủ giày, tủ quần áo đa năng tiết kiệm không gian",
+      "Sử dụng gỗ tự nhiên và phụ kiện chất lượng cao, bền đẹp",
     ],
     image:
-      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80",
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=800&q=80",
   },
   {
     number: "03",
-    title: "Cải Tạo & Nâng Cấp Không Gian",
+    title: "Tư Vấn Thiết Kế Không Gian",
     description:
-      "Làm mới ngôi nhà hiện tại của bạn mà không cần xây dựng lại từ đầu. Chúng tôi giúp bạn cải tạo thông minh, tiết kiệm chi phí nhưng vẫn thay đổi rõ rệt diện mạo và công năng không gian sống hàng ngày.",
+      "Dịch vụ tư vấn miễn phí giúp bạn lên kế hoạch bố trí nội thất phù hợp với diện tích và phong cách sống. Đội ngũ The SEA sẽ đến tận nơi đo đạc, tư vấn chọn sofa, bàn ghế, kệ tủ sao cho không gian vừa đẹp vừa tiện dụng.",
     offerings: [
-      "Cải tạo và nâng cấp nội thất căn hộ, nhà phố",
-      "Thay đổi layout và bố trí lại không gian phù hợp nhu cầu mới",
-      "Nâng cấp hệ thống chiếu sáng, điện nước và tủ kệ",
-      "Tư vấn phong cách mới cho không gian cũ, tận dụng đồ nội thất hiện có",
+      "Tư vấn miễn phí tại nhà, đo đạc không gian thực tế",
+      "Gợi ý bố trí nội thất tối ưu cho từng loại phòng",
+      "Tư vấn phối màu, chất liệu phù hợp phong cách chung",
+      "Hỗ trợ lên phương án nội thất trọn gói theo ngân sách",
     ],
     image:
       "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80",
   },
   {
     number: "04",
-    title: "Thiết Kế Phòng Bếp & Phòng Tắm",
+    title: "Bọc Lại & Làm Mới Sofa",
     description:
-      "Hai không gian quan trọng nhất trong mọi ngôi nhà — nơi gia đình quây quần mỗi bữa cơm và nơi bạn thư giãn sau ngày dài. Chúng tôi thiết kế phòng bếp và phòng tắm vừa đẹp vừa thật sự tiện dụng cho sinh hoạt hàng ngày.",
+      "Sofa cũ, bạc màu, xẹp mút? The SEA nhận bọc lại sofa với vải mới, thay mút mới, giúp chiếc sofa yêu thích của bạn trở lại như mới. Tiết kiệm chi phí so với mua mới mà vẫn đảm bảo thẩm mỹ và độ êm ái.",
     offerings: [
-      "Thiết kế phòng bếp mở và bếp khép kín theo nhu cầu gia đình",
-      "Tối ưu hệ thống tủ bếp, kệ lưu trữ và bàn đảo",
-      "Thiết kế phòng tắm tiện nghi, chống ẩm và dễ vệ sinh",
-      "Tư vấn chọn thiết bị bếp và vệ sinh phù hợp ngân sách",
+      "Bọc lại sofa với hàng trăm mẫu vải để lựa chọn",
+      "Thay mút mới, nâng cấp độ êm và độ đàn hồi",
+      "Sửa chữa khung sofa, thay chân sofa và phụ kiện",
+      "Nhận và giao tận nơi, hoàn thành trong 5-7 ngày",
     ],
     image:
-      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80",
   },
   {
     number: "05",
-    title: "Thi Công Nội Thất Trọn Gói",
+    title: "Giao Hàng & Lắp Đặt",
     description:
-      "Dịch vụ thi công trọn gói từ A đến Z cho căn hộ và nhà phố, đảm bảo mọi chi tiết được thực hiện chính xác theo bản thiết kế. Đội ngũ thợ thi công tay nghề cao, giám sát chặt chẽ và bàn giao đúng tiến độ để gia đình bạn sớm dọn về nhà mới.",
+      "Dịch vụ giao hàng và lắp đặt tận nơi trên toàn Đà Nẵng và các tỉnh lân cận. Đội ngũ vận chuyển chuyên nghiệp, cẩn thận trong từng khâu đóng gói, vận chuyển và lắp đặt, đảm bảo sản phẩm đến tay bạn trong tình trạng hoàn hảo.",
     offerings: [
-      "Thi công nội thất căn hộ và nhà phố theo thiết kế đã duyệt",
-      "Cung cấp và lắp đặt nội thất trọn gói, đồng bộ phong cách",
-      "Giám sát chất lượng công trình và báo cáo tiến độ hàng tuần",
-      "Bảo hành 5 năm và hỗ trợ bảo trì sau thi công",
+      "Giao hàng miễn phí nội thành Đà Nẵng",
+      "Vận chuyển đến Quảng Nam, Huế và các tỉnh lân cận",
+      "Lắp đặt tại nhà, kê đặt đúng vị trí theo yêu cầu",
+      "Hướng dẫn sử dụng và bảo quản sản phẩm sau lắp đặt",
     ],
     image:
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
   },
 ];
 
 const values = [
   {
-    number: "8+",
+    number: "5+",
     title: "Năm Kinh Nghiệm",
     description:
-      "Hơn 8 năm chuyên tâm thiết kế và thi công nội thất nhà ở, am hiểu sâu nhu cầu thực tế của gia đình Việt.",
+      "Hơn 5 năm kinh nghiệm sản xuất sofa và nội thất tại Đà Nẵng, am hiểu nhu cầu thực tế của khách hàng.",
   },
   {
-    number: "20+",
-    title: "Đội Ngũ Chuyên Gia",
+    number: "✦",
+    title: "Đội Ngũ Thợ Lành Nghề",
     description:
-      "Hơn 20 kiến trúc sư, nhà thiết kế và thợ thi công tay nghề cao, tận tâm đồng hành cùng từng dự án.",
+      "Đội ngũ thợ may, thợ mộc tay nghề cao, tận tâm trong từng đường kim mũi chỉ và chi tiết sản phẩm.",
   },
   {
-    number: "05",
+    number: "02",
     title: "Năm Bảo Hành",
     description:
-      "Cam kết bảo hành 5 năm cho toàn bộ công trình, đảm bảo chất lượng bền vững theo thời gian.",
+      "Cam kết bảo hành 2 năm cho khung và kết cấu sản phẩm, đảm bảo chất lượng bền vững theo thời gian.",
   },
   {
-    number: "100%",
-    title: "Cam Kết Đúng Tiến Độ",
+    number: "✦",
+    title: "Giao Hàng Miễn Phí Nội Thành",
     description:
-      "Luôn bàn giao công trình đúng thời gian cam kết, giúp khách hàng yên tâm và chủ động trong kế hoạch.",
+      "Miễn phí giao hàng và lắp đặt trong nội thành Đà Nẵng, giúp bạn tiết kiệm chi phí và thời gian.",
   },
 ];
 
@@ -114,9 +114,9 @@ export default function DichVuPage() {
 
       <PageHero
         label="Dịch Vụ"
-        title="Giải Pháp Thiết Kế"
-        highlight="Chuyên Nghiệp"
-        description="Luxury House cung cấp dịch vụ thiết kế và thi công nội thất chuyên biệt cho căn hộ và nhà phố, từ tư vấn ý tưởng đến hoàn thiện công trình, giúp gia đình bạn có không gian sống đẹp và tiện nghi."
+        title="Giải Pháp Nội Thất"
+        highlight="Cho Mọi Không Gian"
+        description="The SEA mang đến giải pháp nội thất may đo — từ sofa, bàn ghế đến kệ tủ gỗ — với triết lý đơn giản, hiện đại, nhiều công năng và giá tối ưu. Chúng tôi đồng hành cùng bạn từ ý tưởng đến sản phẩm hoàn thiện."
       />
 
       {/* Main Services */}
@@ -213,9 +213,9 @@ export default function DichVuPage() {
       </section>
 
       <CTABanner
-        title="Sẵn Sàng Bắt Đầu"
-        highlight="Dự Án Mới?"
-        description="Hãy để chúng tôi đồng hành cùng bạn trong hành trình kiến tạo không gian sống hoàn hảo. Liên hệ ngay để nhận tư vấn miễn phí từ đội ngũ chuyên gia."
+        title="Sẵn Sàng Đặt Hàng"
+        highlight="Nội Thất Mới?"
+        description="Hãy để The SEA đồng hành cùng bạn kiến tạo không gian sống đẹp và tiện nghi. Liên hệ ngay để nhận tư vấn miễn phí và báo giá nhanh chóng."
       />
 
       <Footer />

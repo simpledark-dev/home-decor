@@ -8,10 +8,10 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="font-serif text-2xl text-white mb-4">
-              <span className="text-gold">LUXURY</span> HOUSE
+              The <span className="text-gold">SEA</span>
             </div>
             <p className="text-sm leading-relaxed font-light max-w-[280px]">
-              Studio thiết kế nội thất chuyên biệt cho căn hộ và nhà phố tại Đà Nẵng.
+              Sofa may đo và nội thất hiện đại tại Đà Nẵng. Đơn giản, hiện đại, nhiều công năng, giá tối ưu.
             </p>
           </div>
 
@@ -22,7 +22,7 @@ export default function Footer() {
             </div>
             {[
               { label: "Trang chủ", href: "/" },
-              { label: "Dự án", href: "/du-an" },
+              { label: "Sản phẩm", href: "/du-an" },
               { label: "Dịch vụ", href: "/dich-vu" },
               { label: "Về chúng tôi", href: "/gioi-thieu" },
             ].map((link) => (
@@ -42,10 +42,10 @@ export default function Footer() {
               Dịch vụ
             </div>
             {[
-              "Thiết kế nội thất",
-              "Thi công trọn gói",
+              "Sofa may đo",
+              "Nội thất gỗ",
               "Tư vấn thiết kế",
-              "Quản lý dự án",
+              "Giao hàng & lắp đặt",
             ].map((item) => (
               <Link
                 key={item}
@@ -63,17 +63,17 @@ export default function Footer() {
               Liên hệ
             </div>
             <div className="text-sm leading-[2.2]">
-              <div>Đống Đa, Thạch Thang</div>
+              <div>K634 Trưng Nữ Vương</div>
               <div>Hải Châu, Đà Nẵng</div>
-              <div>0399 281 280</div>
-              <div>hello@luxuryhouse.vn</div>
+              <div>093 555 82 52</div>
+              <div>hello@thesea.vn</div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-white/8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-xs tracking-wider">
-            © 2024 Luxury House. Thiết kế bởi đam mê.
+            © 2024 The SEA.
           </div>
           <div className="flex gap-6">
             {["Facebook", "Instagram", "Pinterest"].map((s) => (

@@ -49,13 +49,13 @@ export default async function ProjectDetailPage({
         </div>
       </section>
 
-      {/* Project Info Bar */}
+      {/* Product Info Bar */}
       <section className="bg-white border-b border-gray-100">
         <div className="max-w-[1400px] mx-auto px-10 py-8">
           <div className="reveal flex flex-wrap items-center justify-center gap-8 md:gap-16">
             <div className="text-center">
               <div className="text-[11px] tracking-[4px] uppercase text-gold mb-2 font-medium">
-                Vị trí
+                Không gian
               </div>
               <div className="text-dark font-light text-base">
                 {project.location}
@@ -64,7 +64,7 @@ export default async function ProjectDetailPage({
             <div className="w-px h-10 bg-gold/30 hidden md:block" />
             <div className="text-center">
               <div className="text-[11px] tracking-[4px] uppercase text-gold mb-2 font-medium">
-                Diện tích
+                Kích thước
               </div>
               <div className="text-dark font-light text-base">
                 {project.area}
@@ -83,12 +83,12 @@ export default async function ProjectDetailPage({
         </div>
       </section>
 
-      {/* Project Description */}
+      {/* Product Description */}
       <section className="py-30 px-10">
         <div className="max-w-[800px] mx-auto">
           <div className="reveal">
             <span className="text-[11px] tracking-[4px] uppercase text-gold mb-4 font-medium inline-block">
-              Giới Thiệu Dự Án
+              Chi Tiết Sản Phẩm
             </span>
           </div>
           {project.description.map((paragraph, index) => (
@@ -107,7 +107,7 @@ export default async function ProjectDetailPage({
         <div className="max-w-[1400px] mx-auto">
           <div className="reveal text-center mb-16">
             <span className="text-[11px] tracking-[4px] uppercase text-gold mb-4 font-medium inline-block">
-              Hình Ảnh Dự Án
+              Hình Ảnh Sản Phẩm
             </span>
             <h2 className="font-serif text-[44px] font-normal text-dark">
               Bộ Sưu Tập
@@ -186,14 +186,14 @@ export default async function ProjectDetailPage({
       {/* CTA Section */}
       <CTABanner
         label="Liên Hệ"
-        title="Bạn muốn thiết kế"
-        highlight="không gian tương tự?"
-        description="Hãy để chúng tôi biến ý tưởng của bạn thành hiện thực. Đội ngũ thiết kế giàu kinh nghiệm sẵn sàng tư vấn miễn phí."
+        title="Bạn muốn đặt hàng"
+        highlight="sản phẩm tương tự?"
+        description="Hãy liên hệ với The SEA để đặt sofa hoặc nội thất gỗ theo yêu cầu riêng. Đội ngũ của chúng tôi sẵn sàng tư vấn và báo giá miễn phí."
         buttonText="Liên Hệ Ngay"
         buttonHref="/lien-he"
       />
 
-      {/* Related Projects */}
+      {/* Related Products */}
       <section className="py-30 px-10">
         <div className="max-w-[1400px] mx-auto">
           <div className="reveal text-center mb-16">
@@ -201,7 +201,7 @@ export default async function ProjectDetailPage({
               Khám Phá Thêm
             </span>
             <h2 className="font-serif text-[44px] font-normal text-dark">
-              Dự Án Khác
+              Sản Phẩm Liên Quan
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

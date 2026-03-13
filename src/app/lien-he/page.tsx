@@ -36,10 +36,10 @@ export default function LienHePage() {
             Gọi ngay cho chúng tôi để được tư vấn miễn phí và nhận báo giá trong vòng 24 giờ
           </p>
           <a
-            href="tel:0399281280"
+            href="tel:0935558252"
             className="font-serif text-[40px] text-dark hover:text-gold transition-colors duration-400 block mb-4"
           >
-            0399 281 280
+            093 555 82 52
           </a>
           <p className="text-muted text-sm font-light">
             Hoặc điền form bên dưới
@@ -56,7 +56,7 @@ export default function LienHePage() {
               Thông Tin Liên Hệ
             </p>
             <h2 className="font-serif text-[44px] font-normal text-dark mb-8">
-              Ghé Thăm Studio
+              Ghé Thăm Showroom
             </h2>
 
             <div className="space-y-10">
@@ -65,9 +65,9 @@ export default function LienHePage() {
                   Địa chỉ
                 </p>
                 <p className="text-base leading-relaxed font-light text-body">
-                  Đống Đa, Thạch Thang,
+                  K634 Trưng Nữ Vương,
                   <br />
-                  Hải Châu, Đà Nẵng 550000
+                  Hải Châu, Đà Nẵng
                 </p>
               </div>
 
@@ -76,10 +76,10 @@ export default function LienHePage() {
                   Điện thoại
                 </p>
                 <a
-                  href="tel:0399281280"
+                  href="tel:0935558252"
                   className="text-base leading-relaxed font-light text-body hover:text-gold transition-colors duration-300"
                 >
-                  0399 281 280
+                  093 555 82 52
                 </a>
               </div>
 
@@ -88,10 +88,10 @@ export default function LienHePage() {
                   Email
                 </p>
                 <a
-                  href="mailto:hello@luxuryhouse.vn"
+                  href="mailto:hello@thesea.vn"
                   className="text-base leading-relaxed font-light text-body hover:text-gold transition-colors duration-300"
                 >
-                  hello@luxuryhouse.vn
+                  hello@thesea.vn
                 </a>
               </div>
 
@@ -185,7 +185,7 @@ export default function LienHePage() {
 
               <div>
                 <label className="text-[13px] tracking-[1px] text-dark font-medium block mb-2">
-                  Loại dự án
+                  Loại sản phẩm
                 </label>
                 <select
                   name="projectType"
@@ -194,22 +194,22 @@ export default function LienHePage() {
                   onBlur={handleBlur}
                   className="w-full py-3.5 border-0 border-b border-[#ddd] text-[15px] font-sans outline-none bg-transparent transition-colors duration-300 appearance-none cursor-pointer text-body"
                 >
-                  <option value="">-- Chọn loại dự án --</option>
-                  <option value="can-ho">Căn hộ</option>
-                  <option value="nha-pho">Nhà phố</option>
-                  <option value="cai-tao">Cải tạo không gian</option>
+                  <option value="">-- Chọn loại sản phẩm --</option>
+                  <option value="sofa-may-do">Sofa may đo</option>
+                  <option value="noi-that-go">Nội thất gỗ</option>
+                  <option value="boc-lai-sofa">Bọc lại sofa</option>
                   <option value="khac">Khác</option>
                 </select>
               </div>
 
               <div>
                 <label className="text-[13px] tracking-[1px] text-dark font-medium block mb-2">
-                  Diện tích dự kiến
+                  Kích thước mong muốn
                 </label>
                 <input
                   type="text"
                   name="area"
-                  placeholder="VD: 80m²"
+                  placeholder="VD: 2.4m x 0.9m"
                   onFocus={handleFocus}
                   onBlur={handleBlur}
                   className="w-full py-3.5 border-0 border-b border-[#ddd] text-[15px] font-sans outline-none bg-transparent transition-colors duration-300 placeholder:text-subtle placeholder:font-light"
@@ -249,14 +249,14 @@ export default function LienHePage() {
       {/* Google Maps */}
       <section className="w-full">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.8367675687855!2d108.2207!3d16.0678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c1c4e5e36d%3A0x2d756e92a5e9a5f5!2zxJDhu5FuZyDEkGEsIFRo4bqhY2ggVGhhbmcsIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZw!5e0!3m2!1svi!2s!4v1"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.9!2d108.2095!3d16.06!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVHLGsG5nIE7hu68gVsawxqFuZywgSOG6o2kgQ2jDonUsIMSQw6AgTuG6tW5n!5e0!3m2!1svi!2s!4v1"
           width="100%"
           height="400"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Luxury House - Đống Đa, Thạch Thang, Hải Châu, Đà Nẵng"
+          title="The SEA - K634 Trưng Nữ Vương, Hải Châu, Đà Nẵng"
         />
       </section>
 

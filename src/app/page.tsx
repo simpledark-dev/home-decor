@@ -17,38 +17,34 @@ export default function HomePage() {
         <div className="max-w-[1400px] mx-auto px-10 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center w-full">
           <div>
             <div className="text-[11px] tracking-[4px] uppercase text-gold mb-4 font-medium">
-              Studio Thiết Kế Nội Thất Cao Cấp
+              Sofa May Đo & Nội Thất Hiện Đại
             </div>
             <h1 className="font-serif text-5xl lg:text-[64px] font-normal leading-[1.1] mb-8">
-              Kiến Tạo
-              <br />
-              Không Gian
-              <br />
-              <span className="text-gold italic">Đẳng Cấp</span>
+              <span className="text-gold italic">Đơn Giản / Hiện Đại / Đa Công Năng</span>
             </h1>
             <p className="text-base leading-relaxed text-body max-w-[440px] mb-12 font-light">
-              Chúng tôi chuyên thiết kế và thi công nội thất cho căn hộ chung cư và
-              nhà phố tại Đà Nẵng, mang đến không gian sống tinh tế và trọn vẹn cho gia đình bạn.
+              The SEA chuyên sofa may đo và nội thất gỗ hiện đại tại Đà Nẵng.
+              Thiết kế đơn giản, chất lượng bền đẹp, giá tối ưu — phù hợp cho mọi không gian sống.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/lien-he"
                 className="bg-gold text-white px-12 py-4 text-[13px] tracking-[2px] uppercase font-medium hover:bg-dark transition-colors duration-400"
               >
-                Đặt Lịch Tư Vấn
+                Đặt Hàng Ngay
               </Link>
               <Link
                 href="/du-an"
                 className="border border-gold text-gold px-12 py-4 text-[13px] tracking-[2px] uppercase font-medium hover:bg-gold hover:text-white transition-colors duration-400"
               >
-                Xem Dự Án
+                Xem Sản Phẩm
               </Link>
             </div>
           </div>
           <div
             className="h-[400px] lg:h-[600px] bg-cover bg-center bg-no-repeat bg-[#f5f5f0]"
             style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=960&q=80')",
+              backgroundImage: "url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=960&q=80')",
             }}
           />
         </div>
@@ -58,9 +54,9 @@ export default function HomePage() {
       <section className="bg-cream py-20 px-10">
         <div className="reveal stagger max-w-[1200px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
           {[
-            { number: "8+", label: "Năm Kinh Nghiệm" },
-            { number: "200+", label: "Dự Án Hoàn Thành" },
-            { number: "100%", label: "Cam Kết Chất Lượng" },
+            { number: "5+", label: "Năm Kinh Nghiệm" },
+            { number: "500+", label: "Sản Phẩm Đã Giao" },
+            { number: "100%", label: "May Đo Theo Yêu Cầu" },
             { number: "95%", label: "Khách Hàng Hài Lòng" },
           ].map((stat) => (
             <div key={stat.label}>
@@ -78,7 +74,7 @@ export default function HomePage() {
       {/* Featured Projects */}
       <section className="py-30 px-10">
         <div className="max-w-[1400px] mx-auto">
-          <SectionHeader label="Portfolio" title="Dự Án" highlight="Nổi Bật" />
+          <SectionHeader label="Bộ Sưu Tập" title="Sản Phẩm" highlight="Nổi Bật" />
           <div className="reveal stagger grid grid-cols-1 md:grid-cols-3 gap-8">
             {projects.slice(0, 3).map((project) => (
               <Link
@@ -106,7 +102,7 @@ export default function HomePage() {
               href="/du-an"
               className="inline-block border border-gold text-gold px-12 py-4 text-[13px] tracking-[2px] uppercase font-medium hover:bg-gold hover:text-white transition-colors duration-400"
             >
-              Xem Tất Cả Dự Án
+              Xem Tất Cả Sản Phẩm
             </Link>
           </div>
         </div>
@@ -115,20 +111,20 @@ export default function HomePage() {
       {/* Services */}
       <section className="bg-dark text-white py-30 px-10">
         <div className="max-w-[1400px] mx-auto">
-          <SectionHeader label="Dịch Vụ" title="Giải Pháp Thiết Kế" highlight="Toàn Diện" light />
+          <SectionHeader label="Dịch Vụ" title="Giải Pháp Nội Thất" highlight="Cho Bạn" light />
           <div className="reveal stagger grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
               {
-                title: "Thiết Kế Nội Thất",
-                desc: "Thiết kế nội thất trọn gói cho căn hộ chung cư và nhà phố, từ ý tưởng đến bản vẽ 3D chi tiết theo phong cách riêng của bạn.",
+                title: "Sofa May Đo",
+                desc: "Sofa được may đo theo đúng kích thước và phong cách bạn mong muốn. Chọn vải, chọn kiểu dáng — tất cả đều theo yêu cầu của bạn.",
               },
               {
-                title: "Thi Công Trọn Gói",
-                desc: "Thi công nội thất nhà ở với đội ngũ thợ lành nghề, quy trình giám sát chặt chẽ, đảm bảo đúng tiến độ và chất lượng.",
+                title: "Nội Thất Gỗ Hiện Đại",
+                desc: "Bàn, ghế, kệ và tủ gỗ thiết kế đơn giản, hiện đại, đa công năng — phù hợp với mọi không gian sống.",
               },
               {
-                title: "Tư Vấn Phong Cách",
-                desc: "Tư vấn phong cách sống, phong thủy và lựa chọn vật liệu phù hợp để tạo nên không gian sống lý tưởng cho gia đình.",
+                title: "Tư Vấn & Thiết Kế",
+                desc: "Tư vấn miễn phí về chọn sofa, bố trí nội thất và phối màu sắc để không gian nhà bạn vừa đẹp vừa tiện dụng.",
               },
             ].map((service) => (
               <div
@@ -159,13 +155,13 @@ export default function HomePage() {
       {/* Design Process */}
       <section className="py-30 px-10">
         <div className="max-w-[1200px] mx-auto">
-          <SectionHeader label="Quy Trình" title="Hành Trình" highlight="Sáng Tạo" />
+          <SectionHeader label="Quy Trình" title="Hành Trình" highlight="Sản Phẩm" />
           <div className="reveal stagger grid grid-cols-2 md:grid-cols-4 gap-12">
             {[
-              { step: "01", title: "Tư Vấn", desc: "Lắng nghe nhu cầu, tìm hiểu phong cách sống và ngân sách của bạn." },
-              { step: "02", title: "Thiết Kế", desc: "Phát triển concept, bản vẽ 2D/3D và lựa chọn vật liệu phù hợp." },
-              { step: "03", title: "Thi Công", desc: "Triển khai thi công với đội ngũ chuyên nghiệp, giám sát chặt chẽ." },
-              { step: "04", title: "Bàn Giao", desc: "Hoàn thiện, bàn giao và hỗ trợ bảo hành dài hạn cho công trình." },
+              { step: "01", title: "Tư Vấn", desc: "Lắng nghe nhu cầu, kích thước, chất liệu và phong cách bạn mong muốn." },
+              { step: "02", title: "Thiết Kế", desc: "Phác thảo mẫu, lựa chọn vải/gỗ và xác nhận bản thiết kế." },
+              { step: "03", title: "Sản Xuất", desc: "Đội ngũ thợ lành nghề tỉ mỉ may đo và hoàn thiện từng sản phẩm." },
+              { step: "04", title: "Giao Hàng", desc: "Vận chuyển, lắp đặt tận nơi và hướng dẫn bảo quản." },
             ].map((item) => (
               <div key={item.step} className="text-center">
                 <div className="font-serif text-gold text-[56px] font-light leading-none mb-6">
@@ -187,19 +183,19 @@ export default function HomePage() {
           <div className="reveal stagger grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
               {
-                quote: "Luxury House đã biến căn hộ của chúng tôi thành một không gian sống tuyệt vời. Mỗi góc nhỏ đều mang lại cảm giác sang trọng và ấm cúng.",
+                quote: "Sofa nhà mình đặt may đo vừa khít với phòng khách. Vải đẹp, ngồi êm, cả nhà ai cũng thích. Giá cả rất hợp lý so với chất lượng.",
                 name: "Nguyễn Minh Anh",
-                title: "Chủ căn hộ Sơn Trà",
+                title: "Khách hàng tại Sơn Trà",
               },
               {
-                quote: "Sự chuyên nghiệp và tận tâm của đội ngũ khiến tôi hoàn toàn yên tâm. Căn nhà hoàn thành đúng tiến độ với chất lượng vượt xa mong đợi.",
+                quote: "Mình đặt bộ bàn ghế gỗ và sofa cho căn hộ mới. Đội ngũ The SEA tư vấn rất nhiệt tình, giao hàng đúng hẹn. Sẽ quay lại khi cần thêm đồ.",
                 name: "Trần Đức Huy",
-                title: "Gia chủ nhà phố Hải Châu",
+                title: "Khách hàng tại Hải Châu",
               },
               {
-                quote: "Phong cách thiết kế tinh tế, hiểu rõ nhu cầu thực tế của gia đình. Tôi đã giới thiệu cho rất nhiều bạn bè và người thân.",
+                quote: "Đã mua sofa ở nhiều nơi nhưng chưa đâu ưng ý bằng The SEA. Kiểu dáng đơn giản mà sang, chất liệu tốt, giá lại phải chăng.",
                 name: "Lê Thanh Hà",
-                title: "Chủ căn hộ chung cư Ngũ Hành Sơn",
+                title: "Khách hàng tại Ngũ Hành Sơn",
               },
             ].map((t) => (
               <div key={t.name} className="bg-white p-12">
@@ -220,9 +216,9 @@ export default function HomePage() {
 
       {/* CTA */}
       <CTABanner
-        title="Biến Giấc Mơ Thành"
-        highlight="Hiện Thực"
-        description="Đặt lịch tư vấn miễn phí với đội ngũ chuyên gia của chúng tôi. Hãy để chúng tôi lắng nghe và kiến tạo không gian sống trong mơ của bạn."
+        title="Bạn Đang Tìm"
+        highlight="Sofa Phù Hợp?"
+        description="Liên hệ The SEA để được tư vấn miễn phí về sofa may đo và nội thất hiện đại. Chúng tôi sẵn sàng lắng nghe và giúp bạn tìm sản phẩm phù hợp nhất với không gian và ngân sách."
       />
 
       <Footer />

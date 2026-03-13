@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const navLinks = [
   { label: "Trang chủ", href: "/" },
-  { label: "Dự án", href: "/du-an" },
+  { label: "Sản phẩm", href: "/du-an" },
   { label: "Dịch vụ", href: "/dich-vu" },
   { label: "Về chúng tôi", href: "/gioi-thieu" },
   { label: "Liên hệ", href: "/lien-he" },
@@ -31,7 +31,7 @@ export default function Navbar() {
     >
       <div className="max-w-[1400px] mx-auto px-10 py-5 flex justify-between items-center">
         <Link href="/" className="font-serif text-2xl font-semibold tracking-wide">
-          <span className="text-gold">LUXURY</span> HOUSE
+          The <span className="text-gold">SEA</span>
         </Link>
 
         {/* Desktop nav */}
@@ -51,7 +51,7 @@ export default function Navbar() {
           href="/lien-he"
           className="hidden lg:inline-block bg-gold text-white px-8 py-3 text-[11px] tracking-[2px] uppercase font-medium hover:bg-dark transition-colors duration-400"
         >
-          Tư Vấn Miễn Phí
+          Liên Hệ Ngay
         </Link>
 
         {/* Mobile hamburger */}
@@ -84,7 +84,7 @@ export default function Navbar() {
             className="bg-gold text-white px-8 py-3 text-[11px] tracking-[2px] uppercase font-medium text-center hover:bg-dark transition-colors mt-2"
             onClick={() => setMobileOpen(false)}
           >
-            Tư Vấn Miễn Phí
+            Liên Hệ Ngay
           </Link>
         </div>
       )}

@@ -7,61 +7,61 @@ import CTABanner from "@/components/CTABanner";
 const steps = [
   {
     number: "01",
-    title: "Tư Vấn Ban Đầu",
+    title: "Tư Vấn",
     description:
-      "Chúng tôi bắt đầu bằng việc lắng nghe. Trong buổi gặp mặt đầu tiên, đội ngũ sẽ tìm hiểu sâu về nhu cầu, lối sống, sở thích cá nhân và ngân sách của bạn. Đây là bước nền tảng để chúng tôi hiểu rõ tầm nhìn của bạn về không gian lý tưởng, từ đó định hướng toàn bộ quá trình thiết kế phía sau.",
-    duration: "1-2 buổi",
-    deliverable: "Biên bản tư vấn chi tiết",
+      "Trao đổi nhu cầu, kích thước không gian, phong cách yêu thích và ngân sách dự kiến. Đội ngũ The SEA lắng nghe kỹ để hiểu chính xác bạn cần gì — từ chiếc sofa cho phòng khách nhỏ đến bộ nội thất trọn gói cho căn hộ mới. Bạn có thể tư vấn tại showroom, qua Zalo hoặc chúng tôi đến tận nhà đo đạc miễn phí.",
+    duration: "1 buổi",
+    deliverable: "Xác nhận nhu cầu & kích thước",
     image:
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
   },
   {
     number: "02",
-    title: "Lên Ý Tưởng Thiết Kế",
+    title: "Thiết Kế",
     description:
-      "Dựa trên những thông tin đã thu thập, đội ngũ sáng tạo sẽ phát triển các concept board, lựa chọn phong cách tổng thể và xây dựng mood board trực quan. Bạn sẽ được trải nghiệm tầm nhìn thiết kế trước khi bất kỳ chi tiết nào được hiện thực hóa, đảm bảo sự đồng thuận về hướng đi thẩm mỹ.",
-    duration: "1-2 tuần",
-    deliverable: "Concept board & phong cách tổng thể",
+      "Phác thảo mẫu sản phẩm dựa trên nhu cầu đã trao đổi. Bạn được chọn kiểu dáng, chất liệu vải hoặc gỗ, màu sắc và các chi tiết tùy chỉnh. The SEA gửi bản vẽ hoặc hình ảnh minh họa để bạn xác nhận trước khi sản xuất, đảm bảo sản phẩm cuối cùng đúng như mong đợi.",
+    duration: "1-3 ngày",
+    deliverable: "Bản vẽ & mẫu vải/gỗ xác nhận",
     image:
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?w=800&q=80",
   },
   {
     number: "03",
-    title: "Phát Triển Bản Vẽ Chi Tiết",
+    title: "Báo Giá",
     description:
-      "Từ ý tưởng được duyệt, chúng tôi tiến hành phát triển bản vẽ kỹ thuật 2D, hình ảnh 3D photo-realistic và bảng thông số vật liệu chi tiết. Mọi góc nhìn, mọi chi tiết được thể hiện rõ ràng giúp bạn hình dung chính xác không gian tương lai của mình.",
-    duration: "2-3 tuần",
-    deliverable: "Bản vẽ 2D/3D hoàn chỉnh",
+      "Báo giá chi tiết, minh bạch từng hạng mục: chất liệu, nhân công, vận chuyển. Không phát sinh chi phí ngoài báo giá đã thống nhất. The SEA cam kết giá tối ưu nhất cho chất lượng tương đương trên thị trường, giúp bạn yên tâm về ngân sách.",
+    duration: "1 ngày",
+    deliverable: "Báo giá chi tiết & hợp đồng",
     image:
       "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80",
   },
   {
     number: "04",
-    title: "Lựa Chọn Vật Liệu",
+    title: "Sản Xuất",
     description:
-      "Chúng tôi đồng hành cùng bạn trong việc lựa chọn từng loại vật liệu, nội thất và thiết bị. Với mạng lưới đối tác uy tín, chúng tôi đảm bảo chất lượng sản phẩm đáp ứng tiêu chuẩn cao nhất trong khi tối ưu chi phí và thời gian cung cấp.",
-    duration: "1-2 tuần",
-    deliverable: "Bảng vật liệu & báo giá chi tiết",
+      "Đội ngũ thợ lành nghề tiến hành cắt may sofa, đóng nội thất gỗ tại xưởng sản xuất. Mỗi sản phẩm được làm thủ công tỉ mỉ, từ khung gỗ chắc chắn, lớp mút êm ái đến đường may vải chỉnh chu. Chúng tôi cập nhật tiến độ để bạn theo dõi.",
+    duration: "7-15 ngày",
+    deliverable: "Sản phẩm hoàn thiện tại xưởng",
     image:
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
   },
   {
     number: "05",
-    title: "Thi Công",
+    title: "Kiểm Tra",
     description:
-      "Đội ngũ thi công chuyên nghiệp tiến hành hiện thực hóa thiết kế với sự giám sát chặt chẽ từ kiến trúc sư. Chúng tôi duy trì báo cáo tiến độ hàng tuần, đảm bảo mọi chi tiết được thực hiện đúng theo bản vẽ và đạt chuẩn chất lượng cao nhất.",
-    duration: "4-12 tuần (tùy quy mô)",
-    deliverable: "Giám sát tiến độ hàng tuần",
+      "Kiểm tra chất lượng kỹ càng trước khi giao hàng: kiểm tra khung, mút, đường may, bề mặt gỗ, phụ kiện và kích thước tổng thể. Mỗi sản phẩm phải đạt tiêu chuẩn chất lượng của The SEA trước khi được đóng gói cẩn thận để vận chuyển.",
+    duration: "1 ngày",
+    deliverable: "Xác nhận đạt chuẩn chất lượng",
     image:
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&q=80",
   },
   {
     number: "06",
-    title: "Hoàn Thiện Và Bàn Giao",
+    title: "Giao Hàng",
     description:
-      "Giai đoạn cuối cùng bao gồm hoàn thiện các chi tiết trang trí, kiểm tra chất lượng toàn diện và bàn giao không gian hoàn hảo cho bạn. Chúng tôi cung cấp chế độ bảo hành 5 năm và hỗ trợ sau bàn giao để bạn hoàn toàn an tâm.",
-    duration: "1 tuần",
-    deliverable: "Bàn giao & bảo hành 5 năm",
+      "Vận chuyển và lắp đặt tận nơi bởi đội ngũ chuyên nghiệp. Sản phẩm được đóng gói cẩn thận, kê đặt đúng vị trí theo yêu cầu. Sau khi lắp đặt, chúng tôi hướng dẫn cách sử dụng và bảo quản để sản phẩm luôn bền đẹp theo thời gian.",
+    duration: "1 ngày",
+    deliverable: "Giao hàng & bảo hành 2 năm",
     image:
       "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80",
   },
@@ -74,10 +74,10 @@ export default function QuyTrinhPage() {
       <Navbar />
 
       <PageHero
-        label="Quy Trình Làm Việc"
-        title="Hành Trình"
-        highlight="Sáng Tạo"
-        description="Chúng tôi tin rằng một quy trình bài bản là nền tảng của mọi dự án thành công. Từ buổi tư vấn đầu tiên đến ngày bàn giao, mọi bước đi đều được lập kế hoạch cẩn thận và thực hiện chuyên nghiệp."
+        label="Quy Trình"
+        title="Hành Trình Từ"
+        highlight="Ý Tưởng Đến Sản Phẩm"
+        description="The SEA xây dựng quy trình sản xuất nội thất rõ ràng và minh bạch — từ buổi tư vấn đầu tiên đến ngày giao hàng tận nhà. Mỗi bước đều được thực hiện tỉ mỉ để đảm bảo sản phẩm đạt chất lượng cao nhất với giá tối ưu."
       />
 
       {/* Process Steps */}
@@ -140,7 +140,7 @@ export default function QuyTrinhPage() {
             <h2 className="font-serif text-[44px] font-normal text-dark">
               Hành trình từ{" "}
               <span className="text-gold italic">ý tưởng</span> đến{" "}
-              <span className="text-gold italic">hiện thực</span>
+              <span className="text-gold italic">sản phẩm</span>
             </h2>
           </div>
 
@@ -173,7 +173,7 @@ export default function QuyTrinhPage() {
                 Tổng thời gian
               </span>
               <p className="font-serif text-2xl text-dark mt-2">
-                10 — 22 tuần
+                10 — 20 ngày
               </p>
             </div>
           </div>
@@ -181,9 +181,9 @@ export default function QuyTrinhPage() {
       </section>
 
       <CTABanner
-        title="Sẵn sàng bắt đầu"
-        highlight="dự án của bạn?"
-        description="Hãy để buổi tư vấn đầu tiên là bước khởi đầu cho không gian mơ ước của bạn. Đội ngũ của chúng tôi luôn sẵn sàng lắng nghe và đồng hành cùng bạn."
+        title="Sẵn sàng đặt hàng"
+        highlight="nội thất mới?"
+        description="Hãy để buổi tư vấn đầu tiên là bước khởi đầu cho không gian sống đẹp và tiện nghi. Đội ngũ The SEA luôn sẵn sàng lắng nghe và đồng hành cùng bạn."
       />
 
       <Footer />

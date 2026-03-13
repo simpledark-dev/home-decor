@@ -16,8 +16,8 @@ export default function AboutPage() {
       <PageHero
         label="Về Chúng Tôi"
         title="Câu Chuyện"
-        highlight="Luxury House"
-        description="Từ năm 2016, chúng tôi đã đồng hành cùng hàng trăm gia đình tại Đà Nẵng, mang đến những không gian sống đẹp và tiện nghi cho căn hộ và nhà phố — nơi mỗi góc nhỏ đều chứa đựng tâm huyết của đội ngũ."
+        highlight="The SEA"
+        description="The SEA — hành trình mang đến nội thất đơn giản, hiện đại và đa công năng cho mọi gia đình tại Đà Nẵng. Từ sofa may đo đến nội thất gỗ, chúng tôi tin rằng đồ nội thất đẹp không nhất thiết phải đắt đỏ."
       />
 
       {/* Studio Story */}
@@ -42,23 +42,22 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-6">
               <p className="text-base leading-relaxed font-light text-body">
-                Luxury House ra đời vào năm 2016, khởi đầu từ một nhóm nhỏ gồm 3
-                nhà thiết kế đầy đam mê tại Đà Nẵng. Chúng tôi bắt đầu với một ước
-                mơ giản dị: giúp các gia đình tại Đà Nẵng có được không gian sống đẹp,
-                tiện nghi và mang đậm dấu ấn cá nhân.
+                The SEA bắt đầu từ một xưởng nhỏ, ra đời từ tình yêu với thiết kế
+                đơn giản và hiện đại. Được sáng lập bởi một nhóm thợ trẻ đầy nhiệt
+                huyết, chúng tôi tin rằng nội thất đẹp nên dành cho tất cả mọi người
+                — đơn giản, hiện đại, đa công năng, giá tối ưu.
               </p>
               <p className="text-base leading-relaxed font-light text-body">
-                Sau hơn 8 năm, đội ngũ nhỏ ngày nào đã phát triển thành một studio
-                hơn 20 thành viên chuyên tâm vào thiết kế nội thất nhà ở — từ căn hộ
-                chung cư đến nhà phố. Hơn 200 dự án hoàn thành là minh chứng cho sự
-                tin tưởng mà khách hàng đã dành cho chúng tôi.
+                Khởi đầu với dịch vụ sofa may đo, The SEA dần mở rộng sang nội thất
+                gỗ và các sản phẩm nội thất đa dạng khác. Chúng tôi là một đội ngũ
+                nhỏ nhưng đầy đam mê, không phải nhà máy lớn — mỗi sản phẩm đều được
+                chăm chút bằng tay nghề và tâm huyết thực sự.
               </p>
               <p className="text-base leading-relaxed font-light text-body">
-                Điều làm nên Luxury House chính là sự gần gũi và tận tâm. Chúng tôi
-                lắng nghe từng mong muốn của gia chủ, đồng hành từ bản vẽ đầu tiên
-                đến ngày bàn giao. Mỗi dự án không chỉ là một công trình thiết kế mà
-                còn là một câu chuyện về tổ ấm, về cuộc sống và về những giá trị mà
-                gia đình bạn trân trọng.
+                Tọa lạc tại Đà Nẵng, The SEA phục vụ khách hàng trên khắp miền Trung
+                Việt Nam. Chúng tôi lắng nghe từng yêu cầu, đồng hành từ khâu tư vấn
+                đến ngày bàn giao — để mỗi sản phẩm không chỉ là đồ nội thất, mà còn
+                là một phần của tổ ấm bạn.
               </p>
             </div>
           </div>
@@ -70,22 +69,22 @@ export default function AboutPage() {
         <div className="max-w-[1400px] mx-auto">
           <SectionHeader
             label="Triết Lý"
-            title="Thiết Kế Là"
-            highlight="Nghệ Thuật Sống"
+            title="Triết Lý"
+            highlight="Thiết Kế"
           />
           <div className="reveal stagger grid grid-cols-1 md:grid-cols-3 gap-10">
             {[
               {
-                title: "Tinh Tế Trong Từng Chi Tiết",
-                desc: "Chúng tôi tin rằng sự hoàn hảo nằm ở những chi tiết nhỏ nhất. Từ đường nét kiến trúc, chất liệu bề mặt cho đến cách ánh sáng rơi vào không gian — tất cả đều được cân nhắc kỹ lưỡng để tạo nên tổng thể hài hòa.",
+                title: "Đơn Giản Là Đẹp",
+                desc: "Less is more. Chúng tôi theo đuổi những đường nét gọn gàng, loại bỏ mọi trang trí không cần thiết. Mỗi sản phẩm của The SEA đều hướng đến vẻ đẹp tinh tế từ sự tối giản.",
               },
               {
-                title: "Hài Hòa Giữa Đẹp & Thực Dụng",
-                desc: "Một thiết kế đẹp nhưng không tiện dụng thì chưa phải là thiết kế tốt. Chúng tôi luôn đặt trải nghiệm sống của gia chủ làm trung tâm, đảm bảo mỗi không gian vừa đẹp mắt vừa tối ưu công năng sử dụng.",
+                title: "Chất Lượng Trong Tầm Tay",
+                desc: "Nội thất chất lượng không nhất thiết phải đắt đỏ. Chúng tôi tối ưu quy trình sản xuất, lựa chọn vật liệu thông minh để mang đến sản phẩm tốt nhất với mức giá hợp lý nhất cho mọi gia đình.",
               },
               {
-                title: "Thấu Hiểu Cuộc Sống",
-                desc: "Mỗi gia đình có một câu chuyện riêng, và chúng tôi luôn lắng nghe để thấu hiểu. Từ thói quen sinh hoạt, sở thích cá nhân đến ngân sách — tất cả đều được cân nhắc để mang đến không gian sống phù hợp nhất.",
+                title: "Thiết Kế Cho Cuộc Sống",
+                desc: "Mỗi sản phẩm được thiết kế cho cuộc sống thực — không chỉ để đẹp mà còn để sử dụng hàng ngày. Từ sofa đa công năng đến bàn gỗ chắc chắn, tất cả đều phục vụ nhu cầu thực tế của gia đình bạn.",
               },
             ].map((item) => (
               <div key={item.title} className="bg-white p-12">
@@ -106,9 +105,9 @@ export default function AboutPage() {
       <section className="py-20 px-10">
         <div className="reveal stagger max-w-[1200px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
           {[
-            { number: "8+", label: "Năm Kinh Nghiệm" },
-            { number: "200+", label: "Dự Án Hoàn Thành" },
-            { number: "100%", label: "Cam Kết Chất Lượng" },
+            { number: "5+", label: "Năm Kinh Nghiệm" },
+            { number: "500+", label: "Sản Phẩm Đã Giao" },
+            { number: "100%", label: "May Đo Theo Yêu Cầu" },
             { number: "95%", label: "Khách Hàng Hài Lòng" },
           ].map((stat) => (
             <div key={stat.label}>
@@ -136,23 +135,23 @@ export default function AboutPage() {
             {[
               {
                 num: "01",
-                title: "Chất Lượng",
-                desc: "Chất lượng là nền tảng trong mọi việc chúng tôi làm. Từ lựa chọn vật liệu, tay nghề thi công đến dịch vụ hậu mãi — chúng tôi luôn nỗ lực mang đến kết quả tốt nhất cho gia đình bạn.",
+                title: "Tay Nghề Thợ",
+                desc: "Mỗi sản phẩm đều được làm bằng tay nghề của những người thợ lành nghề. Từ khâu chọn gỗ, cắt vải đến đóng khung — chúng tôi đặt chất lượng thi công lên hàng đầu.",
               },
               {
                 num: "02",
-                title: "Sáng Tạo",
-                desc: "Mỗi dự án là một cơ hội để đổi mới. Chúng tôi không ngừng tìm tòi những giải pháp thiết kế độc đáo, mang đến sự khác biệt cho từng không gian.",
+                title: "Giá Cả Minh Bạch",
+                desc: "Không phí ẩn, không markup quá mức. Chúng tôi báo giá rõ ràng từ đầu và cam kết mang đến sản phẩm chất lượng với mức giá tối ưu nhất.",
               },
               {
                 num: "03",
-                title: "Tận Tâm",
-                desc: "Chúng tôi coi mỗi ngôi nhà như chính ngôi nhà của mình. Sự tận tâm thể hiện qua từng cuộc trao đổi, từng bản vẽ và từng ngày thi công trên công trường.",
+                title: "Chăm Sóc Khách Hàng",
+                desc: "Từ lúc tư vấn đến sau bàn giao, chúng tôi luôn đồng hành cùng bạn. Bảo hành tận tâm, hỗ trợ nhanh chóng — vì sự hài lòng của bạn là thành công của chúng tôi.",
               },
               {
                 num: "04",
-                title: "Chính Trực",
-                desc: "Minh bạch trong báo giá, trung thực trong tư vấn và cam kết giữ đúng lời hứa. Đó là cách chúng tôi xây dựng niềm tin với mỗi khách hàng.",
+                title: "Bền Vững",
+                desc: "Chúng tôi ưu tiên sử dụng vật liệu bền vững, hạn chế lãng phí trong sản xuất. Nội thất tốt là nội thất dùng được lâu dài, không cần thay thế liên tục.",
               },
             ].map((value) => (
               <div key={value.num} className="p-8 border border-white/10">
@@ -185,16 +184,15 @@ export default function AboutPage() {
             </h2>
             <div className="bg-gold line-grow h-px mx-auto mb-12" />
             <p className="text-base leading-relaxed font-light text-body max-w-[700px] mx-auto mb-6">
-              Luxury House là ngôi nhà chung của hơn 20 thành viên đam mê thiết kế —
-              từ kiến trúc sư, nhà thiết kế nội thất đến đội ngũ quản lý dự án và thi công.
-              Tuy không phải đội ngũ lớn nhất, nhưng chúng tôi tự hào về sự gắn kết và
-              tinh thần trách nhiệm mà mỗi thành viên mang đến cho từng dự án.
+              The SEA là xưởng nhỏ với đội ngũ hơn 10 thợ lành nghề — từ thợ mộc, thợ
+              bọc sofa đến nhân viên tư vấn và thiết kế. Chúng tôi không phải nhà máy
+              lớn, nhưng tự hào về tay nghề và sự tận tâm mà mỗi người thợ mang đến
+              cho từng sản phẩm.
             </p>
             <p className="text-base leading-relaxed font-light text-body max-w-[700px] mx-auto">
-              Chúng tôi tin rằng sức mạnh của studio nằm ở con người. Vì vậy, chúng tôi
-              luôn khuyến khích học hỏi, cập nhật xu hướng thiết kế mới và tạo môi trường
-              làm việc cởi mở để mỗi thành viên đều có thể sáng tạo và phát triển cùng
-              Luxury House.
+              Ở The SEA, mỗi người đều yêu nghề và luôn trau dồi kỹ năng. Chúng tôi
+              làm việc như một gia đình, cùng nhau tạo ra những sản phẩm nội thất mà
+              chúng tôi thực sự tự hào — và khách hàng thực sự yêu thích.
             </p>
           </div>
         </div>
@@ -204,7 +202,7 @@ export default function AboutPage() {
       <CTABanner
         title="Hãy để chúng tôi"
         highlight="đồng hành cùng bạn"
-        description="Dù bạn đang xây mới hay cải tạo, đội ngũ chuyên gia của chúng tôi sẵn sàng lắng nghe và biến ý tưởng của bạn thành hiện thực. Hãy bắt đầu hành trình kiến tạo không gian sống trong mơ ngay hôm nay."
+        description="Dù bạn cần sofa may đo, nội thất gỗ hay bọc lại sofa cũ, đội ngũ The SEA sẵn sàng lắng nghe và tư vấn. Hãy liên hệ để bắt đầu tạo nên không gian sống đẹp và tiện nghi cho gia đình bạn."
       />
 
       <Footer />
