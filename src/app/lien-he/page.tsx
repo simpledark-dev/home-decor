@@ -48,14 +48,14 @@ export default function LienHePage() {
       </section>
 
       {/* Main Contact Section */}
-      <section className="py-30 px-10">
+      <section className="py-20 px-10">
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20">
           {/* Left Column - Contact Info */}
           <div className="reveal">
             <p className="text-[11px] tracking-[4px] uppercase text-gold mb-4 font-medium">
               Thông Tin Liên Hệ
             </p>
-            <h2 className="font-serif text-[44px] font-normal text-dark mb-12">
+            <h2 className="font-serif text-[44px] font-normal text-dark mb-8">
               Ghé Thăm Studio
             </h2>
 
@@ -146,9 +146,10 @@ export default function LienHePage() {
                   type="text"
                   name="name"
                   required
+                  placeholder="Nguyễn Văn A"
                   onFocus={handleFocus}
                   onBlur={handleBlur}
-                  className="w-full py-3.5 border-0 border-b border-[#ddd] text-[15px] font-sans outline-none bg-transparent transition-colors duration-300"
+                  className="w-full py-3.5 border-0 border-b border-[#ddd] text-[15px] font-sans outline-none bg-transparent transition-colors duration-300 placeholder:text-subtle placeholder:font-light"
                 />
               </div>
 
@@ -160,9 +161,10 @@ export default function LienHePage() {
                   type="tel"
                   name="phone"
                   required
+                  placeholder="0912 345 678"
                   onFocus={handleFocus}
                   onBlur={handleBlur}
-                  className="w-full py-3.5 border-0 border-b border-[#ddd] text-[15px] font-sans outline-none bg-transparent transition-colors duration-300"
+                  className="w-full py-3.5 border-0 border-b border-[#ddd] text-[15px] font-sans outline-none bg-transparent transition-colors duration-300 placeholder:text-subtle placeholder:font-light"
                 />
               </div>
 
@@ -174,9 +176,10 @@ export default function LienHePage() {
                   type="email"
                   name="email"
                   required
+                  placeholder="email@example.com"
                   onFocus={handleFocus}
                   onBlur={handleBlur}
-                  className="w-full py-3.5 border-0 border-b border-[#ddd] text-[15px] font-sans outline-none bg-transparent transition-colors duration-300"
+                  className="w-full py-3.5 border-0 border-b border-[#ddd] text-[15px] font-sans outline-none bg-transparent transition-colors duration-300 placeholder:text-subtle placeholder:font-light"
                 />
               </div>
 
